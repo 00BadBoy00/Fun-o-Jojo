@@ -1,0 +1,19 @@
+{
+  "islands": {},
+  "users": {
+    "Hitmann96": {
+      "player": "Hitmann96",
+      "islandID": 0,
+      "invites": []
+    }
+  },
+  "direction": "NORTH",
+  "worldName": "EpicSkyblock",
+  "nextLocation": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0,
+    "world": "EpicSkyblock"
+  },
+  "nextID": 1
+}

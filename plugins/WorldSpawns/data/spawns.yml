@@ -1,0 +1,15 @@
+spawns:
+  Spawn:
+    world: Spawn
+    x: 0.500560646821055
+    y: 5.0
+    z: 0.6369017080429215
+    pitch: 0
+    yaw: 0
+  Survival:
+    world: Survival
+    x: 86.5329254728435
+    y: 82.0
+    z: -22.527208479559977
+    pitch: 0
+    yaw: 90

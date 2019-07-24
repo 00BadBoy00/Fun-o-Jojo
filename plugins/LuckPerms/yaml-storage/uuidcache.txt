@@ -1,0 +1,2 @@
+# LuckPerms UUID lookup cache
+9e9d22b5-8385-3441-8768-bf04cab65bac:z_buffer

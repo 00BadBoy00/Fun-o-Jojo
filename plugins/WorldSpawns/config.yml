@@ -1,0 +1,100 @@
+############################################################
+# +------------------------------------------------------+ #
+# |            WorldSpawns Configuration File            | #
+# +--------------------Version 2.5.0---------------------+ #
+############################################################
+
+# Here you can configure all the settings of the plugin.
+# Would you ever encounter that this configuration file is giving errors, please check the following things:
+#   - No tabs are present: YAML only allows spaces (when only using Notepad++, this issue will never occur)
+#   - Indents are correct: YAML hierarchy is based entirely on indentation
+#   - You have "escaped" all apostrophes in your text: If you want to write "don't", for example, write "don''t" instead (note the doubled apostrophe)
+#   - Text with symbols is enclosed in single or double quotation marks
+
+# For any questions, troubleshooting or issue reporting, go to the plugin's BukkitDev page, at http://bit.ly/WorldSpawns
+
+############################################################
+# +------------------------------------------------------+ #
+# |                 Global Configuration                 | #
+# +------------------------------------------------------+ #
+############################################################
+
+# Control which components of the plugin should be enabled.
+component-hub: true
+component-spawns: true
+component-portals: true
+component-signs: true
+component-firework: true
+
+# Enable extensive logging for debug purposes.
+debug: false
+
+# Allow spawns to be set in the air.
+spawn-set-air: false
+
+# Allow the hub to be set in the air.
+hub-set-air: false
+
+# Set the delays for teleporting
+teleport-delay: false
+delay-hub: 3
+delay-spawn: 3
+
+# Where new players should spawn.
+# - Set to 'ws-newbie' to use the WorldSpawns newbie spawn defined with the command /setnewbie.
+# - Set to 'ws-hub' to spawn new players at the WorldSpawns hub.
+# - Set to a world's name to spawn new players at that world's spawn.
+# - Set to 'none' to disable this feature.
+# Will default to 'hub' if setting below can't be performed.
+newbie-spawn: 'ws-newbie'
+
+############################################################
+# +------------------------------------------------------+ #
+# |                 Signs Configuration                  | #
+# +------------------------------------------------------+ #
+############################################################
+
+# The usage of color codes (&) is supported
+
+# Set the general header of each WorldSpawns sign
+sign-header: '&9[WorldSpawns]'
+
+# Define each individual line of a hub teleport sign
+hub-line-1: '&bhub'
+hub-line-2: ''
+hub-line-3: ''
+
+# Define each individual line of a fhub teleport sign
+fhub-line-1: '&bfhub'
+fhub-line-2: ''
+fhub-line-3: ''
+
+# Define each individual line of a spawn teleport sign
+# Use the variable '%world%' to be replaced with the world's name
+spawn-line-1: '&2spawn'
+spawn-line-2: '&6%world%'
+spawn-line-3: ''
+
+# Define each individual line of a fhub teleport sign
+fspawn-line-1: '&2fspawn'
+fspawn-line-2: '&6%world%'
+fspawn-line-3: ''
+
+############################################################
+# +------------------------------------------------------+ #
+# |                Firework Configuration                | #
+# +------------------------------------------------------+ #
+############################################################
+
+# Whether a firework rocket with randomly generated effects should be fired.
+# Set to false to use custom firework rocket defined below.
+random-firework: true
+
+# Firework rocket with custom effects
+custom:
+    type: BALL
+    color: RED
+    fade: GREEN
+    power: 1
+    flicker: true
+    trail: true

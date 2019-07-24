@@ -1,0 +1,8 @@
+{
+  "ores": [
+    "COBBLESTONE:30",
+    "IRON_ORE:30",
+    "COAL_ORE:30",
+    "DIAMOND_ORE:10"
+  ]
+}

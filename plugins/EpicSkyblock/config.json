@@ -1,0 +1,80 @@
+{
+  "prefix": "&b&lEpicSkyblock",
+  "UpgradeGUITitle": "&7Upgrade",
+  "BoosterGUITitle": "&7Booster",
+  "MissionsGUITitle": "&7Missions",
+  "MembersGUITitle": "&7Members",
+  "WarpGUITitle": "&7Warps",
+  "TopGUITitle": "&7Top Islands",
+  "BorderColorGUITitle": "&7Border Color",
+  "sendErrorReports": true,
+  "distance": 200,
+  "size": {
+    "1": {
+      "size": 50,
+      "cost": 15
+    },
+    "2": {
+      "size": 100,
+      "cost": 15
+    },
+    "3": {
+      "size": 150,
+      "cost": 15
+    }
+  },
+  "member": {
+    "1": {
+      "size": 9,
+      "cost": 15
+    },
+    "2": {
+      "size": 18,
+      "cost": 15
+    },
+    "3": {
+      "size": 27,
+      "cost": 15
+    }
+  },
+  "warp": {
+    "1": {
+      "size": 2,
+      "cost": 15
+    },
+    "2": {
+      "size": 5,
+      "cost": 15
+    },
+    "3": {
+      "size": 9,
+      "cost": 15
+    }
+  },
+  "defaultBiome": "PLAINS",
+  "spawnerBoosterCost": 15,
+  "farmingBoosterCost": 15,
+  "experienceBoosterCost": 15,
+  "flightBoosterCost": 15,
+  "blockvalue": {
+    "LEGACY_DIAMOND_BLOCK": 10,
+    "LEGACY_EMERALD_BLOCK": 20,
+    "LEGACY_BEACON": 100
+  },
+  "spawnervalue": {
+    "IRON_GOLEM": 1000,
+    "PIG": 100
+  },
+  "islandTopSlots": {
+    "1": 4,
+    "2": 12,
+    "3": 14,
+    "4": 19,
+    "5": 20,
+    "6": 21,
+    "7": 22,
+    "8": 23,
+    "9": 24,
+    "10": 25
+  }
+}

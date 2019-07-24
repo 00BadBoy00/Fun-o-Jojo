@@ -1,0 +1,20 @@
+[
+  {
+    "uuid": "613d4d2b-dc0f-33cb-abb8-74e72923a37d",
+    "name": "DerPanzer",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "9e9d22b5-8385-3441-8768-bf04cab65bac",
+    "name": "z_buffer",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "1a8d7333-ddc1-3883-94f9-272b7e3e2b56",
+    "name": "Hitmann96",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

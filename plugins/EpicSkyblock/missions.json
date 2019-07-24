@@ -1,0 +1,30 @@
+{
+  "treasureHunter": {
+    "amount": 1000,
+    "reward": 15
+  },
+  "competitor": {
+    "amount": 10000,
+    "reward": 15
+  },
+  "miner": {
+    "amount": 1000,
+    "reward": 15
+  },
+  "farmer": {
+    "amount": 5000,
+    "reward": 15
+  },
+  "hunter": {
+    "amount": 1000,
+    "reward": 15
+  },
+  "fisherman": {
+    "amount": 100,
+    "reward": 15
+  },
+  "builder": {
+    "amount": 10000,
+    "reward": 15
+  }
+}

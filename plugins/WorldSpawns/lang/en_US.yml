@@ -1,0 +1,135 @@
+prefix: '&9[WorldSpawns]'
+no-permission: '&cYou have no permission to preform this action.'
+player-join-header: '&9&m----------->&r &fWorldSpawns &9&m<-----------'
+player-joinnotification-version: '&fVersion: &6%versionid%&f.'
+player-joinnotification-mcversion: '&fFor Minecraft: &6%mcversionid%&f.'
+player-joinnotification-cbversion: '&fCraftbukkit: &6%cbversionid%&f.'
+teleporting-in-seconds: '&fTeleporting in &e%counter%&f...'
+teleporting-cancel-move: '&cTeleport cancelled due to moving.'
+teleporting-cancel-move-sender: '&cTeleporting &6%target% &cwas cancelled due to moving.'
+teleporting-cancel-damage: '&cTeleport cancelled due to taking damage.'
+teleporting-cancel-damage-sender: '&cTeleporting &6%target% &cwas cancelled due to
+  taking damage.'
+feature-wip: '&fThis feature is not finished yet. Check again after new updates have
+  been released.'
+component-spawns-disabled: '&fThe spawns feature is disabled.'
+component-hub-disabled: '&fThe hub feature is disabled.'
+component-signs-disabled: '&fThe signs feature is disabled.'
+component-feature-disabled: '&fThis feature is disabled.'
+component-protals-disabled-hubspawn: '&fThe portals feature is disabled, because both
+  spawns and hub are also disabled. The portals have no function without having spawns
+  or a hub.'
+command-unknown-subcommand: '&cUnknown subcommand ''%args%''. Use &6/%label% help
+  &cor &6/%label% ? &cfor a list of commands.'
+command-no-args: '&fWorldSpawns plugin version %versionid% made by Greenadine. Type
+  &7/%label% help or &7/%label% ? &ffor a list of commands.'
+command-sethub-sender-console: '&cThis command can only be executed by a player!'
+command-help-header: '&9&m-->&r &fWorldSpawns Help &9&m<--'
+command-help-note: '&8NOTE: [] = required, <> = optional.'
+command-help-spawns-desc: '&7/%label% spawns - &fShows a list of spawns-related commands.'
+command-help-hub-desc: '&7/%label% hub - &fShows a list of hub-related commands.'
+command-help-portals-desc: '&7/%label% portals - &fShows a list of portal-related
+  commands.'
+command-help-reload-desc: '&7/%label% reload - &fReload the plugin and it''s config.'
+command-help-save-desc: '&7/%label% save - &fSave all data to files.'
+command-help-spawns-header: '&9&m-->&r &fWorldSpawns Help - Spawns &9&m<--'
+command-help-spawns-spawn-desc: '&7/spawn <world> <player> - &fTeleport yourself or
+  another player to a world''s spawn.'
+command-help-spawns-fspawn-desc: '&7/fspawn <world> <player> - &fInstantly teleport
+  yourself or another player to a world''s spawn.'
+command-help-spawns-setspawn-desc: '&7/setspawn - &fSet the spawn of your current
+  world.'
+command-help-spawns-delspawn-desc: '&7/delspawn <world> - &fDelete the spawn of your
+  current world, or another world''s spawn.'
+command-help-spawns-setnewbie-desc: '&7/setnewbie - &fSet the spawn for new players.'
+command-help-spawns-resetnewbie-desc: '&7/resetnewbie - &fReset the spawn for new
+  players.'
+command-help-reset-desc: '&7/%label% reset - &fReset the spawn of all worlds.'
+command-help-hub-header: '&9&m-->&r &fWorldSpawns Help - Hub &9&m<--'
+command-help-hub-hub-desc: '&7/hub <player> - &fTeleport yourself or another player
+  to the server''s hub.'
+command-help-hub-fhub-desc: '&7/fhub <player> - &fTeleport yourself or another player
+  to the server''s hub without delay.'
+command-help-hub-sethub-desc: '&7/sethub - &fSet the server''s hub to your current
+  location.'
+command-help-hub-resethub-desc: '&7/resethub - &fReset the server''s hub.'
+command-help-invalidusage: '&cInvalid command usage. Usage: &6/%label% %section%&c.'
+command-reload-success: '&fSuccessfuly reloaded plugin.'
+command-reload-fail: '&cFailed to reload plugin! Report this problem to plugin developer
+  and/or the server administrator(s).'
+command-reload-invalidusage: '&cInvalid usage. Usage: &6/%label% reload&c.'
+command-save-success: '&fSuccessfuly saved data.'
+command-save-fail: '&cFailed to save data to files. If this problem persists, please
+  report to plugin developer.'
+command-save-invalidusage: '&cInvalid usage. Usage: &6/%label% save&c.'
+command-enable-enabled: '&fComponent &6%component%&f has been &aenabled.'
+command-enable-disabled: '&fComponent &6%component%&f has been &cdisabled.'
+command-enable-wrongbool: '&cThis can only be set to either ''true'' or ''false''.'
+command-enable-component-null: '&cComponent &6%component%&c does not exist.'
+command-enable-invalidusage: '&cInvalid usage. Usage: &6%label% enable [component]
+  [true|false]&c.'
+command-reset-success: '&fAll spawns have been reset.'
+command-reset-fail: '&cFailed to reset spawns. See console for information.'
+command-reset-toomanyargs: '&cToo many arguments (%lenght%). Usage: &6/%label% reset&c.'
+command-spawn-world-null: '&cWorld &6%world% &cdoes not exist!'
+command-spawn-target-null: '&cCould not find player &6%target%&c!'
+command-spawn-target-equals-sender: '&fTo teleport yourself to &aspawn&f, use &6/%label%&f.'
+command-spawn-null: '&cThe spawn of world &6%world% &cis not set yet.'
+command-spawn-teleport: '&fTelepored to &aspawn&f.'
+command-spawn-teleport-other: '&fTeleported to &aspawn &fof world &6%world%&f.'
+command-spawn-teleport-player: '&fTeleported &6%target% &fto the &aspawn&f of world
+  &6%world%&f!'
+command-spawn-current-null: '&cThe spawn for the world you are currently in is not
+  set yet.'
+command-spawn-invalidusage: '&cInvalid command usage. Usage: &6/%label% <world> <player>&c.'
+command-spawn-consoleinvalidusage: '&cToo many arguments (%lenght%. Usage: &6/%label%
+  [world] [player]&c.'
+command-setspawn-set: '&fSpawn for world &6%world%&f has been set.'
+command-setspawn-set-inair: '&cNOTE: The spawn has been set in air.'
+command-setspawn-set-inair-deny: '&cThe location you want to set as the spawn is in
+  the air. Please set ''&6settings.allowSpawnInAir'' &cto ''&6true'' &cin config to
+  allow the spawn to be set in the air.'
+command-setspawn-invalidusage: '&cInvalid command usage. Usage: &6/%label%&c.'
+command-delspawn-world-null: '&cWorld &6%world% &cdoes not exist!'
+command-delspawn-spawn-null: '&cThere is no spawn set for world &6%world% &cyet'
+command-delspawn-spawn-deleted: '&fDeleted spawn for world &6%world%&f!'
+command-delspawn-invalidusage: '&cInvalid command usage. Usage: &6/%label% <world>&c.'
+command-delspawn-consoleinvalidusage: '&cInvalid command usage. Usage: &6/%label%
+  [world]&c.'
+command-setnewbie-set: '&fSpawn for new players has been set.'
+command-setnewbie-set-inair: '&cNOTE: The newbie spawn has been set in air.'
+command-setnewbie-set-inair-deny: '&cThe location you want to set as the newbie spawn
+  is in the air. Please set ''&6settings.allowSpawnInAir'' &cto ''&6true'' &cin config
+  to allow the newbie spawn to be set in the air.'
+command-setnewbie-invalidusage: '&cInvalid command usage. Usage: &6/%label%&c.'
+command-resetnewbie-reset: '&fThe newbie spawn has been reset!'
+command-resetnewbie-null: '&fThe newbie spawn has not been set yet.'
+command-resetnewbie-invalidusage: '&cInvalid command usage. Usage: &6/%label%&c.'
+command-hub-console-define-player: '&cDefine a player to teleport to the hub!'
+command-hub-console-target-null: '&cCould not find player &6%target%&c.'
+command-hub-console-target-teleported: '&fTelepored &6%target%&f to the &bhub&f!'
+command-hub-target-equals-sender: '&fTo teleport yourself to the &bhub&f, use &6/%label%&f.'
+command-hub-null: '&cThe hub isn''t set yet.'
+command-hub-teleported: '&fTeleported to the &bhub&f!'
+command-hub-invalidusage: '&cInvalid command usage. Usage: &6/%label% <player>&c.'
+command-hub-consoleinvalidusage: '&cInvalid command usage. Usage: &6/%label% [player]&c.'
+command-sethub-set: '&fThe hub has been set!'
+command-sethub-set-inair: '&cNOTE: The hub has been set in air.'
+command-sethub-set-inair-deny: '&cThe location you want to set as the hub is in the
+  air. Please set ''&6settings.allowHubInAir'' &cto ''&6true'' &cin config to allow
+  the hub to be set in the air.'
+command-sethub-invalidusage: '&cInvalid command usage. Usage: &6/%label%&c.'
+command-resethub-reset: '&fThe hub has been reset!'
+command-resethub-invalidusage: '&cInvalid command usage. Usage: &6/%label%&c.'
+command-wand-explaination: '&fSelect a region with the wand by setting position 1
+  by left clicking a block, and position 2 by right clicking a block.'
+command-wand-has: '&fYou already have a wand.'
+command-wand-invalidusage: '&cInvalid command usage. Usage: &6/%label% wand&c.'
+sign-create: '&fCreated new %type% &fteleport sign.'
+sign-create-noperm: '&cYou have no permission to create a %type% &cteleport sign.'
+sign-destroy: '&fDestroyed %type% &fteleport sign.'
+sign-destroy-deny: '&fSneak to destroy a teleport sign.'
+sign-destroy-noperm: '&cYou do not have permission to destroy a %type% &cteleport
+  sign.'
+sign-use-noperm: '&cYou do not have permission to use a %type% &cteleport sign.'
+portal-teleporting: '&fTeleporting to %destination%&f.'

@@ -1,0 +1,51 @@
+# 
+#  ExamplePortal:
+#    world: it will be the world name
+#    triggerblock: LAVA # will only be used if the hastriggerblock is true and can be id or text
+#    pos1: # dont mess with the data here, if you do it may stop the portal from working.
+#      X:
+#      Y:
+#      Z:
+#    pos2:
+#      X:
+#      Y:
+#      Z:
+#    destination:
+#      issetpoint: true # if this was false point name would not be used and the coordinates would be saved here, it just adds more customisation.
+#      pointname: examplepoint # if issetpoint is false this wont be here and tppos will be.
+#      tppos:
+#        X:
+#        Y:
+#        Z:
+
+
+
+
+
+
+
+
+SurvPort:
+  world: Spawn
+  triggerblock: WATER
+  destination: survivalspawn
+  pos1:
+    X: 33
+    Y: 8
+    Z: 2
+  pos2:
+    X: 33
+    Y: 4
+    Z: -2
+CrePort:
+  world: Spawn
+  triggerblock: WATER
+  destination: creativespawn
+  pos1:
+    X: -37
+    Y: 9
+    Z: 2
+  pos2:
+    X: -37
+    Y: 5
+    Z: -2
