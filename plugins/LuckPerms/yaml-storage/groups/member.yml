@@ -1,0 +1,35 @@
+name: member
+permissions:
+- essentials.build.*:
+    value: true
+    world: survival
+- essentials.gamemode.creative:
+    value: true
+    world: creative
+- essentials.afk.*
+- essentials.protect.damage.*
+- essentials.signs.use.*
+- multiverse.access.*
+- advancedportals.portal
+- essentials.balance
+- essentials.balancetop
+- essentials.chat.magic
+- essentials.chat.url
+- essentials.home
+- essentials.kit
+- essentials.protect.alerts
+- essentials.sethome
+- essentials.showkit
+- essentials.suicide
+- essentials.tpa
+- essentials.tpacancel
+- essentials.tpaccept
+- essentials.warp
+- multiverse.core.spawn.self
+- worldspawns.command.hub
+- worldspawns.command.spawns
+parents:
+- default
+prefixes:
+- '&c[member]':
+    priority: 2

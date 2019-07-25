@@ -1,8 +1,18 @@
 {
   "islands": {},
   "users": {
+    "DerPanzer": {
+      "player": "DerPanzer",
+      "islandID": 0,
+      "invites": []
+    },
     "Hitmann96": {
       "player": "Hitmann96",
+      "islandID": 0,
+      "invites": []
+    },
+    "z_buffer": {
+      "player": "z_buffer",
       "islandID": 0,
       "invites": []
     }

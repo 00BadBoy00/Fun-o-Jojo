@@ -1,0 +1,4 @@
+useAsWhitelist: false
+disabledWorlds:
+- world_nether
+- world_the_end

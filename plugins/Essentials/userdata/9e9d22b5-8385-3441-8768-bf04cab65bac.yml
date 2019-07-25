@@ -1,12 +1,22 @@
 lastAccountName: z_buffer
 timestamps:
-  login: 1563933843538
-  logout: 1563934038939
+  login: 1564011343927
+  logout: 1564017757524
+  lastteleport: 1564015122676
 ipAddress: 147.32.114.54
 logoutlocation:
   world: Survival
-  x: 86.0004526883365
-  y: 82.5
-  z: -22.860693974351
-  yaw: 157.78789
-  pitch: 32.214287
+  x: 1199.8782938970253
+  y: 82.186898717363
+  z: 1540.7404687776798
+  yaw: 124.92347
+  pitch: 52.05548
+geolocation: Czechia
+lastlocation:
+  world: Survival
+  x: 1199.04676901086
+  y: 83.24861112028918
+  z: 1532.7143536403823
+  yaw: -156.77368
+  pitch: 20.516756
+afk: false

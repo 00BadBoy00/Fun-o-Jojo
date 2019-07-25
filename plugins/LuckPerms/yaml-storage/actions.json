@@ -1,0 +1,250 @@
+[
+  {
+    "actor": "9e9d22b5-8385-3441-8768-bf04cab65bac",
+    "actorName": "z_buffer@fun'o'jojo",
+    "type": "GROUP",
+    "actedName": "member",
+    "action": "create"
+  },
+  {
+    "actor": "9e9d22b5-8385-3441-8768-bf04cab65bac",
+    "actorName": "z_buffer@fun'o'jojo",
+    "type": "GROUP",
+    "actedName": "member",
+    "action": "meta setprefix 2 &c[member]"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "console@fun'o'jojo",
+    "type": "USER",
+    "acted": "613d4d2b-dc0f-33cb-abb8-74e72923a37d",
+    "actedName": "DerPanzer",
+    "action": "parent set member"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "console@fun'o'jojo",
+    "type": "USER",
+    "acted": "1a8d7333-ddc1-3883-94f9-272b7e3e2b56",
+    "actedName": "Hitmann96",
+    "action": "parent set member"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "console@fun'o'jojo",
+    "type": "GROUP",
+    "actedName": "member",
+    "action": "parent add default"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "console@fun'o'jojo",
+    "type": "USER",
+    "acted": "9e9d22b5-8385-3441-8768-bf04cab65bac",
+    "actedName": "z_buffer",
+    "action": "parent set member"
+  },
+  {
+    "actor": "9e9d22b5-8385-3441-8768-bf04cab65bac",
+    "actorName": "z_buffer@fun'o'jojo",
+    "type": "GROUP",
+    "actedName": "default",
+    "action": "webeditor add essentials.help true"
+  },
+  {
+    "actor": "9e9d22b5-8385-3441-8768-bf04cab65bac",
+    "actorName": "z_buffer@fun'o'jojo",
+    "type": "GROUP",
+    "actedName": "default",
+    "action": "webeditor add essentials.rules true"
+  },
+  {
+    "actor": "9e9d22b5-8385-3441-8768-bf04cab65bac",
+    "actorName": "z_buffer@fun'o'jojo",
+    "type": "GROUP",
+    "actedName": "default",
+    "action": "webeditor add worldspawns.spawn.world true"
+  },
+  {
+    "actor": "9e9d22b5-8385-3441-8768-bf04cab65bac",
+    "actorName": "z_buffer@fun'o'jojo",
+    "type": "GROUP",
+    "actedName": "default",
+    "action": "webeditor add essentials.motd true"
+  },
+  {
+    "actor": "9e9d22b5-8385-3441-8768-bf04cab65bac",
+    "actorName": "z_buffer@fun'o'jojo",
+    "type": "GROUP",
+    "actedName": "default",
+    "action": "webeditor add multiverse.teleport.self true"
+  },
+  {
+    "actor": "9e9d22b5-8385-3441-8768-bf04cab65bac",
+    "actorName": "z_buffer@fun'o'jojo",
+    "type": "GROUP",
+    "actedName": "member",
+    "action": "webeditor add essentials.tpaccept true"
+  },
+  {
+    "actor": "9e9d22b5-8385-3441-8768-bf04cab65bac",
+    "actorName": "z_buffer@fun'o'jojo",
+    "type": "GROUP",
+    "actedName": "member",
+    "action": "webeditor add worldspawns.command.hub true"
+  },
+  {
+    "actor": "9e9d22b5-8385-3441-8768-bf04cab65bac",
+    "actorName": "z_buffer@fun'o'jojo",
+    "type": "GROUP",
+    "actedName": "member",
+    "action": "webeditor add essentials.signs.use.* true"
+  },
+  {
+    "actor": "9e9d22b5-8385-3441-8768-bf04cab65bac",
+    "actorName": "z_buffer@fun'o'jojo",
+    "type": "GROUP",
+    "actedName": "member",
+    "action": "webeditor add essentials.balance true"
+  },
+  {
+    "actor": "9e9d22b5-8385-3441-8768-bf04cab65bac",
+    "actorName": "z_buffer@fun'o'jojo",
+    "type": "GROUP",
+    "actedName": "member",
+    "action": "webeditor add essentials.tpa true"
+  },
+  {
+    "actor": "9e9d22b5-8385-3441-8768-bf04cab65bac",
+    "actorName": "z_buffer@fun'o'jojo",
+    "type": "GROUP",
+    "actedName": "member",
+    "action": "webeditor add essentials.warp true"
+  },
+  {
+    "actor": "9e9d22b5-8385-3441-8768-bf04cab65bac",
+    "actorName": "z_buffer@fun'o'jojo",
+    "type": "GROUP",
+    "actedName": "member",
+    "action": "webeditor add essentials.chat.url true"
+  },
+  {
+    "actor": "9e9d22b5-8385-3441-8768-bf04cab65bac",
+    "actorName": "z_buffer@fun'o'jojo",
+    "type": "GROUP",
+    "actedName": "member",
+    "action": "webeditor add essentials.gamemode.creative true world=creative"
+  },
+  {
+    "actor": "9e9d22b5-8385-3441-8768-bf04cab65bac",
+    "actorName": "z_buffer@fun'o'jojo",
+    "type": "GROUP",
+    "actedName": "member",
+    "action": "webeditor add worldspawns.command.spawns true"
+  },
+  {
+    "actor": "9e9d22b5-8385-3441-8768-bf04cab65bac",
+    "actorName": "z_buffer@fun'o'jojo",
+    "type": "GROUP",
+    "actedName": "member",
+    "action": "webeditor add essentials.home true"
+  },
+  {
+    "actor": "9e9d22b5-8385-3441-8768-bf04cab65bac",
+    "actorName": "z_buffer@fun'o'jojo",
+    "type": "GROUP",
+    "actedName": "member",
+    "action": "webeditor add essentials.chat.magic true"
+  },
+  {
+    "actor": "9e9d22b5-8385-3441-8768-bf04cab65bac",
+    "actorName": "z_buffer@fun'o'jojo",
+    "type": "GROUP",
+    "actedName": "member",
+    "action": "webeditor add essentials.afk.* true"
+  },
+  {
+    "actor": "9e9d22b5-8385-3441-8768-bf04cab65bac",
+    "actorName": "z_buffer@fun'o'jojo",
+    "type": "GROUP",
+    "actedName": "member",
+    "action": "webeditor add essentials.build.* true world=survival"
+  },
+  {
+    "actor": "9e9d22b5-8385-3441-8768-bf04cab65bac",
+    "actorName": "z_buffer@fun'o'jojo",
+    "type": "GROUP",
+    "actedName": "member",
+    "action": "webeditor add essentials.kit true"
+  },
+  {
+    "actor": "9e9d22b5-8385-3441-8768-bf04cab65bac",
+    "actorName": "z_buffer@fun'o'jojo",
+    "type": "GROUP",
+    "actedName": "member",
+    "action": "webeditor add essentials.sethome true"
+  },
+  {
+    "actor": "9e9d22b5-8385-3441-8768-bf04cab65bac",
+    "actorName": "z_buffer@fun'o'jojo",
+    "type": "GROUP",
+    "actedName": "member",
+    "action": "webeditor add essentials.protect.alerts true"
+  },
+  {
+    "actor": "9e9d22b5-8385-3441-8768-bf04cab65bac",
+    "actorName": "z_buffer@fun'o'jojo",
+    "type": "GROUP",
+    "actedName": "member",
+    "action": "webeditor add essentials.balancetop true"
+  },
+  {
+    "actor": "9e9d22b5-8385-3441-8768-bf04cab65bac",
+    "actorName": "z_buffer@fun'o'jojo",
+    "type": "GROUP",
+    "actedName": "member",
+    "action": "webeditor add essentials.protect.damage.* true"
+  },
+  {
+    "actor": "9e9d22b5-8385-3441-8768-bf04cab65bac",
+    "actorName": "z_buffer@fun'o'jojo",
+    "type": "GROUP",
+    "actedName": "member",
+    "action": "webeditor add essentials.suicide true"
+  },
+  {
+    "actor": "9e9d22b5-8385-3441-8768-bf04cab65bac",
+    "actorName": "z_buffer@fun'o'jojo",
+    "type": "GROUP",
+    "actedName": "member",
+    "action": "webeditor add essentials.tpacancel true"
+  },
+  {
+    "actor": "9e9d22b5-8385-3441-8768-bf04cab65bac",
+    "actorName": "z_buffer@fun'o'jojo",
+    "type": "GROUP",
+    "actedName": "member",
+    "action": "webeditor add essentials.showkit true"
+  },
+  {
+    "actor": "9e9d22b5-8385-3441-8768-bf04cab65bac",
+    "actorName": "z_buffer@fun'o'jojo",
+    "type": "GROUP",
+    "actedName": "member",
+    "action": "webeditor add multiverse.access.* true"
+  },
+  {
+    "actor": "9e9d22b5-8385-3441-8768-bf04cab65bac",
+    "actorName": "z_buffer@fun'o'jojo",
+    "type": "GROUP",
+    "actedName": "member",
+    "action": "webeditor add advancedportals.portal true"
+  },
+  {
+    "actor": "9e9d22b5-8385-3441-8768-bf04cab65bac",
+    "actorName": "z_buffer@fun'o'jojo",
+    "type": "GROUP",
+    "actedName": "member",
+    "action": "webeditor add multiverse.core.spawn.self true"
+  }
+]

@@ -1,0 +1,28 @@
+geolocation: Slovakia
+lastAccountName: DerPanzer
+timestamps:
+  login: 1564005348582
+  lastteleport: 1564006546630
+ipAddress: 195.3.171.81
+lastlocation:
+  world: Survival
+  x: 1253.5233566895417
+  y: 72.18106254502518
+  z: 1289.828888696056
+  yaw: 236.90332
+  pitch: 23.768013
+homes:
+  s:
+    world: Survival
+    x: 1400.6709051154528
+    y: 80.99422939612222
+    z: 580.2131523289889
+    yaw: 101.633934
+    pitch: 53.395966
+  home:
+    world: Survival
+    x: 1388.4620186252314
+    y: 66.0
+    z: 576.2056091844491
+    yaw: 104.06195
+    pitch: 18.111176

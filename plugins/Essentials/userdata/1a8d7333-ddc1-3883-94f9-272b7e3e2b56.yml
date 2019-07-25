@@ -1,4 +1,21 @@
 lastAccountName: Hitmann96
 timestamps:
-  login: 1563935248843
+  login: 1564011377330
+  lastteleport: 1564011450227
+  logout: 1564015224776
 ipAddress: 84.245.108.115
+geolocation: Slovakia
+lastlocation:
+  world: Spawn
+  x: 0.0
+  y: 5.0
+  z: 0.0
+  yaw: -1.3500001
+  pitch: 0.15
+logoutlocation:
+  world: Survival
+  x: 1199.0158857013682
+  y: 83.20884391539461
+  z: 1550.2110397408492
+  yaw: 211.09521
+  pitch: 53.400017

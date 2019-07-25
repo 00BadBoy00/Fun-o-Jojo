@@ -1,1 +1,7 @@
 name: default
+permissions:
+- essentials.help
+- essentials.motd
+- essentials.rules
+- multiverse.teleport.self
+- worldspawns.spawn.world

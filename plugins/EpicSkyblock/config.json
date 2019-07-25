@@ -57,9 +57,9 @@
   "experienceBoosterCost": 15,
   "flightBoosterCost": 15,
   "blockvalue": {
+    "LEGACY_BEACON": 100,
     "LEGACY_DIAMOND_BLOCK": 10,
-    "LEGACY_EMERALD_BLOCK": 20,
-    "LEGACY_BEACON": 100
+    "LEGACY_EMERALD_BLOCK": 20
   },
   "spawnervalue": {
     "IRON_GOLEM": 1000,

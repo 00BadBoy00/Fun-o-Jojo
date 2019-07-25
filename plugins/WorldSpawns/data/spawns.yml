@@ -8,8 +8,8 @@ spawns:
     yaw: 0
   Survival:
     world: Survival
-    x: 86.5329254728435
-    y: 82.0
-    z: -22.527208479559977
-    pitch: 0
-    yaw: 90
+    x: 1199.5
+    y: 81.0
+    z: 1548.5
+    pitch: 3.7844238
+    yaw: 180.6806
