@@ -1,16 +1,17 @@
 geolocation: Slovakia
 lastAccountName: DerPanzer
 timestamps:
-  login: 1564005348582
-  lastteleport: 1564006546630
+  login: 1564177522332
+  lastteleport: 1564178107562
+  logout: 1564178285272
 ipAddress: 195.3.171.81
 lastlocation:
   world: Survival
-  x: 1253.5233566895417
-  y: 72.18106254502518
-  z: 1289.828888696056
-  yaw: 236.90332
-  pitch: 23.768013
+  x: 1198.477319367748
+  y: 81.0
+  z: 1547.7926719415384
+  yaw: 200.54022
+  pitch: 9.063953
 homes:
   s:
     world: Survival
@@ -26,3 +27,11 @@ homes:
     z: 576.2056091844491
     yaw: 104.06195
     pitch: 18.111176
+logoutlocation:
+  world: Survival
+  x: 1250.4164623920492
+  y: 105.10355511506334
+  z: 1170.7212999175472
+  yaw: 154.0346
+  pitch: 48.4035
+nickname: Bambusch

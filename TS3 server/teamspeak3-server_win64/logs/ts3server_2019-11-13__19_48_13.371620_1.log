@@ -1,0 +1,2 @@
+2019-11-13 19:48:15.248163|INFO    |VirtualServer |1  |listening on 0.0.0.0:9987, [::]:9987
+2019-11-13 21:47:42.540956|INFO    |PktHandler    |1  |Dropping client 2 because of ping timeout 19 0 0

@@ -1,0 +1,4 @@
+lgin: serveradmin
+pass: SV20qvmI
+
+admin token: HUrhUm+yzr18mL1y4FjpmzGjRYkeFBcVlbCgheNu

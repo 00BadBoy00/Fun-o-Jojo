@@ -1,0 +1,5 @@
+2019-08-14 17:48:32.041596|INFO    |VirtualServer |1  |listening on 0.0.0.0:9987, [::]:9987
+2019-08-14 18:30:10.714289|INFO    |PktHandler    |1  |Dropping client 2 because of ping timeout 19 0 0
+2019-08-14 18:52:39.005552|INFO    |VirtualServer |1  |client (id:5) was removed from servergroup 'Member'(id:9) by client '00*BadBoy*00'(id:2)
+2019-08-14 18:53:21.866210|INFO    |VirtualServer |1  |client (id:4) was removed from servergroup 'Member'(id:9) by client '00*BadBoy*00'(id:2)
+2019-08-14 19:06:08.750557|INFO    |VirtualServer |1  |client (id:4) was added to servergroup 'Normal'(id:7) by client '00*BadBoy*00'(id:2)

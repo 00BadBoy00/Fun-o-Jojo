@@ -1,4 +1,6 @@
 useAsWhitelist: false
 disabledWorlds:
-- world_nether
-- world_the_end
+- Creative
+- EpicSkyblock
+- Spawn_nether
+- Spawn_the_end

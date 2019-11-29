@@ -1,0 +1,2 @@
+2019-10-02 19:54:03.530947|ERROR   |VirtualServer |1  |bind failed on 0.0.0.0:9987, :::9987
+2019-10-02 19:54:03.538941|INFO    |VirtualServerBase|1  |stopped

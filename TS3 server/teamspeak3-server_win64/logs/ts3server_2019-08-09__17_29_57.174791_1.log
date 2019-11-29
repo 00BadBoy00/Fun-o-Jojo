@@ -1,0 +1,4 @@
+2019-08-09 17:29:58.122080|INFO    |VirtualServer |1  |listening on 0.0.0.0:9987, [::]:9987
+2019-08-10 21:50:46.046049|INFO    |PktHandler    |1  |Dropping client 1 because of ping timeout 19 0 0
+2019-08-12 00:18:53.647431|INFO    |PktHandler    |1  |Cleaning up connection because of 14 resends of COMMAND packet
+2019-08-12 00:18:53.647431|INFO    |PktHandler    |1  |Dropping client 1 because of resend timeout

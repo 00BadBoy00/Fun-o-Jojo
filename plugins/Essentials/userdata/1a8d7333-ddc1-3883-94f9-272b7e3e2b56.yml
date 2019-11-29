@@ -1,21 +1,45 @@
 lastAccountName: Hitmann96
 timestamps:
-  login: 1564011377330
-  lastteleport: 1564011450227
-  logout: 1564015224776
+  login: 1564098395991
+  lastteleport: 1564098832279
+  logout: 1564100527771
 ipAddress: 84.245.108.115
 geolocation: Slovakia
 lastlocation:
-  world: Spawn
-  x: 0.0
-  y: 5.0
-  z: 0.0
-  yaw: -1.3500001
-  pitch: 0.15
+  world: Creative
+  x: 800054.733160284
+  y: 26.398128276566045
+  z: 800027.4636665751
+  yaw: 345.35883
+  pitch: -41.879566
 logoutlocation:
-  world: Survival
-  x: 1199.0158857013682
-  y: 83.20884391539461
-  z: 1550.2110397408492
-  yaw: 211.09521
-  pitch: 53.400017
+  world: Creative
+  x: 800033.6409088752
+  y: 5.757867536327223
+  z: 800066.5328682188
+  yaw: 119.6814
+  pitch: 55.052437
+afk: false
+homes:
+  doly:
+    world: Survival
+    x: 8000026.546736457
+    y: 51.0
+    z: 8000142.701408433
+    yaw: -94.598946
+    pitch: 53.438084
+  doly2:
+    world: Survival
+    x: 8000057.076359696
+    y: 23.0
+    z: 8000155.103356651
+    yaw: -266.9467
+    pitch: 11.700468
+  home:
+    world: Survival
+    x: -506.4212928290756
+    y: 64.80948674189209
+    z: -139.20835886041152
+    yaw: -0.15001667
+    pitch: 14.849991
+nickname: Vakot

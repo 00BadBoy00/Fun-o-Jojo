@@ -1,0 +1,44 @@
+2019-08-18 21:53:26.452069|INFO    |ServerLibPriv |   |TeamSpeak 3 Server 3.9.1 (2019-07-02 13:17:23)
+2019-08-18 21:53:26.453068|INFO    |ServerLibPriv |   |SystemInformation: Windows 10 (18362) x64 (AMD or Intel) Binary: 64bit
+2019-08-18 21:53:26.453068|INFO    |ServerLibPriv |   |Using hardware aes
+2019-08-18 21:53:26.454068|INFO    |DatabaseQuery |   |dbPlugin name:    SQLite3 plugin, Version 3, (c)TeamSpeak Systems GmbH
+2019-08-18 21:53:26.454068|INFO    |DatabaseQuery |   |dbPlugin version: 3.11.1
+2019-08-18 21:53:26.454068|INFO    |DatabaseQuery |   |checking database integrity (may take a while)
+2019-08-18 21:53:26.484044|WARNING |Accounting    |   |Unable to open licensekey.dat, falling back to limited functionality
+2019-08-18 21:53:26.490039|INFO    |Accounting    |   |Licensing Information
+2019-08-18 21:53:26.490039|INFO    |Accounting    |   |licensed to       : Anonymous
+2019-08-18 21:53:26.490039|INFO    |Accounting    |   |type              : No License
+2019-08-18 21:53:26.490039|INFO    |Accounting    |   |starting date     : Tue Jan  1 00:00:00 2019
+2019-08-18 21:53:26.490039|INFO    |Accounting    |   |ending date       : Fri Jan 31 00:00:00 2020
+2019-08-18 21:53:26.490039|INFO    |Accounting    |   |max virtualservers: 1
+2019-08-18 21:53:26.490039|INFO    |Accounting    |   |max slots         : 32
+2019-08-18 21:53:26.579969|INFO    |              |   |myTeamSpeak identifier revocation list was downloaded successfully - all related features are activated
+2019-08-18 21:53:27.355366|INFO    |              |   |Puzzle precompute time: 850
+2019-08-18 21:53:27.356365|INFO    |FileManager   |   |listening on 0.0.0.0:30033, [::]:30033
+2019-08-18 21:53:27.369356|INFO    |Query         |   |listening for query on 0.0.0.0:10011, [::]:10011
+2019-08-18 21:53:27.369356|INFO    |Query         |   |listening for query ssh on 0.0.0.0:10022, [::]:10022
+2019-08-18 21:53:27.370355|INFO    |CIDRManager   |   |updated query_ip_whitelist ips: 127.0.0.1/32, ::1/128, 
+2019-08-18 21:57:27.555257|INFO    |              |   |Error opening file "files\virtualserver_1\internal\icons/icon_3984904527": The system cannot find the file specified.
+                                                       
+2019-08-18 21:57:27.642698|INFO    |              |   |Error opening file "files\virtualserver_1\internal\icons/icon_1500418013": The system cannot find the file specified.
+                                                       
+2019-08-18 21:57:27.736624|INFO    |              |   |Error opening file "files\virtualserver_1\internal\icons/icon_989476108": The system cannot find the file specified.
+                                                       
+2019-08-18 21:59:15.833580|INFO    |              |   |Error opening file "files\virtualserver_1\internal\icons/icon_1763151931": The system cannot find the file specified.
+                                                       
+2019-08-18 21:59:15.926507|INFO    |              |   |Error opening file "files\virtualserver_1\internal\icons/icon_862321260": The system cannot find the file specified.
+                                                       
+2019-08-18 21:59:16.027428|INFO    |              |   |Error opening file "files\virtualserver_1\internal\icons/icon_4068158772": The system cannot find the file specified.
+                                                       
+2019-08-18 21:59:16.122355|INFO    |              |   |Error opening file "files\virtualserver_1\internal\icons/icon_3162835429": The system cannot find the file specified.
+                                                       
+2019-08-18 21:59:16.227272|INFO    |              |   |Error opening file "files\virtualserver_1\internal\icons/icon_1141655189": The system cannot find the file specified.
+                                                       
+2019-08-18 21:59:16.332193|INFO    |              |   |Error opening file "files\virtualserver_1\internal\icons/icon_666557237": The system cannot find the file specified.
+                                                       
+2019-08-18 21:59:16.448102|INFO    |              |   |Error opening file "files\virtualserver_1\internal\icons/icon_3914239669": The system cannot find the file specified.
+                                                       
+2019-08-18 21:59:16.546530|INFO    |              |   |Error opening file "files\virtualserver_1\internal\icons/icon_2540092118": The system cannot find the file specified.
+                                                       
+2019-08-18 21:59:16.636459|INFO    |              |   |Error opening file "files\virtualserver_1\internal\icons/icon_4110443708": The system cannot find the file specified.
+                                                       

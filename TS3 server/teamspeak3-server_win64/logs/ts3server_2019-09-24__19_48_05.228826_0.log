@@ -1,0 +1,20 @@
+2019-09-24 19:48:05.229825|INFO    |ServerLibPriv |   |TeamSpeak 3 Server 3.9.1 (2019-07-02 13:17:23)
+2019-09-24 19:48:05.242815|INFO    |ServerLibPriv |   |SystemInformation: Windows 10 (18362) x64 (AMD or Intel) Binary: 64bit
+2019-09-24 19:48:05.242815|INFO    |ServerLibPriv |   |Using hardware aes
+2019-09-24 19:48:05.286291|INFO    |DatabaseQuery |   |dbPlugin name:    SQLite3 plugin, Version 3, (c)TeamSpeak Systems GmbH
+2019-09-24 19:48:05.286291|INFO    |DatabaseQuery |   |dbPlugin version: 3.11.1
+2019-09-24 19:48:05.306275|INFO    |DatabaseQuery |   |checking database integrity (may take a while)
+2019-09-24 19:48:05.445166|WARNING |Accounting    |   |Unable to open licensekey.dat, falling back to limited functionality
+2019-09-24 19:48:05.472145|INFO    |Accounting    |   |Licensing Information
+2019-09-24 19:48:05.472145|INFO    |Accounting    |   |licensed to       : Anonymous
+2019-09-24 19:48:05.472145|INFO    |Accounting    |   |type              : No License
+2019-09-24 19:48:05.472145|INFO    |Accounting    |   |starting date     : Tue Jan  1 00:00:00 2019
+2019-09-24 19:48:05.472145|INFO    |Accounting    |   |ending date       : Fri Jan 31 00:00:00 2020
+2019-09-24 19:48:05.472145|INFO    |Accounting    |   |max virtualservers: 1
+2019-09-24 19:48:05.472145|INFO    |Accounting    |   |max slots         : 32
+2019-09-24 19:48:05.499124|INFO    |              |   |myTeamSpeak identifier revocation list was downloaded successfully - all related features are activated
+2019-09-24 19:48:06.421910|INFO    |              |   |Puzzle precompute time: 844
+2019-09-24 19:48:06.423909|INFO    |FileManager   |   |listening on 0.0.0.0:30033, [::]:30033
+2019-09-24 19:48:06.498356|INFO    |Query         |   |listening for query on 0.0.0.0:10011, [::]:10011
+2019-09-24 19:48:06.498356|INFO    |Query         |   |listening for query ssh on 0.0.0.0:10022, [::]:10022
+2019-09-24 19:48:06.527333|INFO    |CIDRManager   |   |updated query_ip_whitelist ips: 127.0.0.1/32, ::1/128, 

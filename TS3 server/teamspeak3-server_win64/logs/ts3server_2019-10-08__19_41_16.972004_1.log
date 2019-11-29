@@ -1,0 +1,3 @@
+2019-10-08 19:41:18.323522|INFO    |VirtualServer |1  |listening on 0.0.0.0:9987, [::]:9987
+2019-10-08 21:28:25.666774|INFO    |PktHandler    |1  |Dropping client 2 because of ping timeout 19 0 0
+2019-10-08 22:53:35.953109|INFO    |PktHandler    |1  |Dropping client 1 because of ping timeout 19 0 0

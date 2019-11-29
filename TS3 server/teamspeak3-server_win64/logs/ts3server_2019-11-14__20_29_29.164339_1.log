@@ -1,0 +1,16 @@
+2019-11-14 20:29:31.906201|INFO    |VirtualServer |1  |listening on 0.0.0.0:9987, [::]:9987
+2019-11-14 22:27:25.674664|INFO    |PktHandler    |1  |Dropping client 2 because of ping timeout 19 0 0
+2019-11-14 22:51:58.607951|INFO    |PktHandler    |1  |Dropping client 1 because of ping timeout 19 0 0
+2019-11-15 13:45:40.132160|INFO    |PktHandler    |1  |Dropping client 1 because of ping timeout 19 0 0
+2019-11-15 21:23:53.876804|INFO    |VirtualServer |1  |client 'ada'(id:5) was added to channelgroup 'Channel Admin'(id:5) by client '00*BadBoy*00'(id:2) in channel 'Gaming'(id:4)
+2019-11-15 21:24:01.200677|INFO    |VirtualServer |1  |client 'ada'(id:5) was added to channelgroup 'Guest'(id:8) by client '00*BadBoy*00'(id:2) in channel 'Gaming'(id:4)
+2019-11-15 21:24:08.653935|INFO    |VirtualServer |1  |client (id:5) was added to servergroup 'Member'(id:9) by client '00*BadBoy*00'(id:2)
+2019-11-15 21:24:58.215285|INFO    |VirtualServer |1  |client 'IGZ'(id:7) was added to channelgroup 'Channel Admin'(id:5) by client '00*BadBoy*00'(id:2) in channel 'Gaming'(id:4)
+2019-11-15 21:25:04.339088|INFO    |VirtualServer |1  |client (id:7) was added to servergroup 'Server Admin'(id:6) by client '00*BadBoy*00'(id:2)
+2019-11-15 21:26:57.657975|INFO    |VirtualServer |1  |client (id:5) was removed from servergroup 'Normal'(id:7) by client '00*BadBoy*00'(id:2)
+2019-11-15 21:27:00.410856|INFO    |VirtualServer |1  |client (id:5) was removed from servergroup 'Member'(id:9) by client '00*BadBoy*00'(id:2)
+2019-11-15 21:27:19.814936|INFO    |VirtualServer |1  |client (id:7) was removed from servergroup 'Normal'(id:7) by client '00*BadBoy*00'(id:2)
+2019-11-15 21:28:06.981676|INFO    |VirtualServer |1  |client (id:5) was added to servergroup 'Normal'(id:7) by client '00*BadBoy*00'(id:2)
+2019-11-15 21:31:53.069969|INFO    |VirtualServer |1  |client 'ada'(id:5) was added to channelgroup 'Voice'(id:7) by client '00*BadBoy*00'(id:2) in channel 'Gaming'(id:4)
+2019-11-15 21:31:59.655895|INFO    |VirtualServer |1  |client 'ada'(id:5) was added to channelgroup 'Guest'(id:8) by client '00*BadBoy*00'(id:2) in channel 'Gaming'(id:4)
+2019-11-16 01:06:31.748725|INFO    |VirtualServerBase|1  |stopped

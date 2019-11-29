@@ -1,841 +1,356 @@
-[01:35:03] [Server thread/INFO]: Starting minecraft server version 1.14.4
-[01:35:03] [Server thread/INFO]: Loading properties
-[01:35:03] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-9de398a-9c887d4 (MC: 1.14.4) (Implementing API version 1.14.4-R0.1-SNAPSHOT)
-[01:35:03] [Server thread/INFO]: Debug logging is disabled
-[01:35:03] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[01:35:03] [Server thread/INFO]: Using 4 threads for Netty based IO
-[01:35:03] [Server thread/INFO]: Default game type: SURVIVAL
-[01:35:03] [Server thread/INFO]: Generating keypair
-[01:35:03] [Server thread/INFO]: Starting Minecraft server on *:25565
-[01:35:03] [Server thread/INFO]: Using default channel type
-[01:35:08] [Server thread/WARN]: Plugin EpicSkyblock v2.0.3 does not specify an api-version.
-[01:35:08] [Server thread/WARN]: Plugin CommandAliases v1.0 does not specify an api-version.
-[01:35:08] [Server thread/WARN]: Plugin Multiverse-Core v2.5-b719 does not specify an api-version.
-[01:35:08] [Server thread/WARN]: Plugin iZone v1.0.35 does not specify an api-version.
-[01:35:08] [Server thread/INFO]: [AdvancedPortals] Loading AdvancedPortals v0.2.0
-[01:35:08] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v4.4.1
-[01:35:09] [Server thread/INFO]: [EpicSkyblock] Loading EpicSkyblock v2.0.3
-[01:35:09] [Server thread/INFO]: [CommandAliases] Loading CommandAliases v1.0
-[01:35:09] [Server thread/INFO]: [WorldSpawns] Loading WorldSpawns v2.5
-[01:35:09] [Server thread/INFO]: [Vault] Loading Vault v1.7.2-b107
-[01:35:09] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v2.5-b719
-[01:35:09] [Server thread/INFO]: [iZone] Loading iZone v1.0.35
-[01:35:09] [Server thread/INFO]: [Essentials] Loading Essentials v2.17.0.0
-[01:35:09] [Server thread/INFO]: [EssentialsProtect] Loading EssentialsProtect v2.17.0.0
-[01:35:09] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.17.0.0
-[01:35:09] [Server thread/INFO]: [EssentialsGeoIP] Loading EssentialsGeoIP v2.17.0.0
-[01:35:09] [Server thread/INFO]: [EssentialsAntiBuild] Loading EssentialsAntiBuild v2.17.0.0
-[01:35:09] [Server thread/INFO]: [Shop] Loading Shop v2.1.1
-[01:35:09] [Server thread/INFO]: [PerWorldInventory] Loading PerWorldInventory v2.3.1
-[01:35:09] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.17.0.0
-[01:35:09] [Server thread/INFO]: [EssentialsXMPP] Loading EssentialsXMPP v2.17.0.0
-[01:35:09] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v4.4.1
-[01:35:09] [Server thread/INFO]: [0;36;1m       [0;36;22m __    [m
-[01:35:09] [Server thread/INFO]: [0;36;1m  |    [0;36;22m|__)   [0;32;22mLuckPerms [0;36;1mv4.4.1[m
-[01:35:09] [Server thread/INFO]: [0;36;1m  |___ [0;36;22m|      [0;30;1mRunning on Bukkit - CraftBukkit[m
-[01:35:09] [Server thread/INFO]: [m
-[01:35:09] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[01:35:09] [Server thread/INFO]: [LuckPerms] Loading storage provider... [YAML]
-[01:35:10] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[01:35:10] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[01:35:10] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1417ms)
-[01:35:10] [Server thread/INFO]: [Vault] Enabling Vault v1.7.2-b107
-[01:35:10] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[01:35:10] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[01:35:10] [Server thread/INFO]: [Vault] Enabled Version 1.7.2-b107
-[01:35:10] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
-[01:35:10] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[01:35:10] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[01:35:10] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[01:35:10] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[01:35:10] [Server thread/INFO]: Preparing level "Spawn"
-[01:35:11] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
-[01:35:11] [Server thread/INFO]: Loaded 6 recipes
-[01:35:11] [Server thread/INFO]: -------- World Settings For [Spawn] --------
-[01:35:11] [Server thread/INFO]: View Distance: 10
-[01:35:11] [Server thread/INFO]: Item Despawn Rate: 6000
-[01:35:11] [Server thread/INFO]: Item Merge Radius: 2.5
-[01:35:11] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[01:35:11] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[01:35:11] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[01:35:11] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[01:35:11] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[01:35:11] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[01:35:11] [Server thread/INFO]: Cane Growth Modifier: 100%
-[01:35:11] [Server thread/INFO]: Melon Growth Modifier: 100%
-[01:35:11] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[01:35:11] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[01:35:11] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[01:35:11] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[01:35:11] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[01:35:11] [Server thread/INFO]: Potato Growth Modifier: 100%
-[01:35:11] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[01:35:11] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[01:35:11] [Server thread/INFO]: Vine Growth Modifier: 100%
-[01:35:11] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[01:35:11] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[01:35:11] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[01:35:11] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[01:35:11] [Server thread/INFO]: Experience Merge Radius: 3.0
-[01:35:11] [Server thread/INFO]: Mob Spawn Range: 6
-[01:35:11] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[01:35:11] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[01:35:11] [Server thread/INFO]: Max TNT Explosions: 100
-[01:35:11] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[01:35:11] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[01:35:12] [Server thread/INFO]: -------- World Settings For [Spawn_nether] --------
-[01:35:12] [Server thread/INFO]: View Distance: 10
-[01:35:12] [Server thread/INFO]: Item Despawn Rate: 6000
-[01:35:12] [Server thread/INFO]: Item Merge Radius: 2.5
-[01:35:12] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[01:35:12] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[01:35:12] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[01:35:12] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[01:35:12] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[01:35:12] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[01:35:12] [Server thread/INFO]: Cane Growth Modifier: 100%
-[01:35:12] [Server thread/INFO]: Melon Growth Modifier: 100%
-[01:35:12] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[01:35:12] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[01:35:12] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[01:35:12] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[01:35:12] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[01:35:12] [Server thread/INFO]: Potato Growth Modifier: 100%
-[01:35:12] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[01:35:12] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[01:35:12] [Server thread/INFO]: Vine Growth Modifier: 100%
-[01:35:12] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[01:35:12] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[01:35:12] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[01:35:12] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[01:35:12] [Server thread/INFO]: Experience Merge Radius: 3.0
-[01:35:12] [Server thread/INFO]: Mob Spawn Range: 6
-[01:35:12] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[01:35:12] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[01:35:12] [Server thread/INFO]: Max TNT Explosions: 100
-[01:35:12] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[01:35:12] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[01:35:12] [Server thread/INFO]: -------- World Settings For [Spawn_the_end] --------
-[01:35:12] [Server thread/INFO]: View Distance: 10
-[01:35:12] [Server thread/INFO]: Item Despawn Rate: 6000
-[01:35:12] [Server thread/INFO]: Item Merge Radius: 2.5
-[01:35:12] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[01:35:12] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[01:35:12] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[01:35:12] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[01:35:12] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[01:35:12] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[01:35:12] [Server thread/INFO]: Cane Growth Modifier: 100%
-[01:35:12] [Server thread/INFO]: Melon Growth Modifier: 100%
-[01:35:12] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[01:35:12] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[01:35:12] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[01:35:12] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[01:35:12] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[01:35:12] [Server thread/INFO]: Potato Growth Modifier: 100%
-[01:35:12] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[01:35:12] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[01:35:12] [Server thread/INFO]: Vine Growth Modifier: 100%
-[01:35:12] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[01:35:12] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[01:35:12] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[01:35:12] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[01:35:12] [Server thread/INFO]: Experience Merge Radius: 3.0
-[01:35:12] [Server thread/INFO]: Mob Spawn Range: 6
-[01:35:12] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[01:35:12] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[01:35:12] [Server thread/INFO]: Max TNT Explosions: 100
-[01:35:12] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[01:35:12] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[01:35:12] [Server thread/INFO]: Preparing start region for dimension 'Spawn'/minecraft:overworld
-[01:35:13] [Server thread/INFO]: Preparing spawn area: 0%
-[01:35:13] [Server thread/INFO]: Preparing spawn area: 0%
-[01:35:13] [Server-Worker-3/INFO]: Preparing spawn area: 0%
-[01:35:13] [Server-Worker-3/INFO]: Preparing spawn area: 0%
-[01:35:13] [Server thread/INFO]: Time elapsed: 1778 ms
-[01:35:13] [Server thread/INFO]: Preparing start region for dimension 'Spawn_nether'/minecraft:the_nether
-[01:35:14] [Server thread/INFO]: Preparing spawn area: 0%
-[01:35:14] [Server thread/INFO]: Preparing spawn area: 0%
-[01:35:14] [Server-Worker-3/INFO]: Preparing spawn area: 83%
-[01:35:15] [Server-Worker-2/INFO]: Preparing spawn area: 83%
-[01:35:15] [Server-Worker-1/INFO]: Preparing spawn area: 86%
-[01:35:16] [Server thread/INFO]: Time elapsed: 2413 ms
-[01:35:16] [Server thread/INFO]: Preparing start region for dimension 'Spawn_the_end'/minecraft:the_end
-[01:35:16] [Server thread/INFO]: Preparing spawn area: 0%
-[01:35:16] [Server-Worker-3/INFO]: Preparing spawn area: 83%
-[01:35:17] [Server thread/INFO]: Time elapsed: 744 ms
-[01:35:17] [Server thread/INFO]: [AdvancedPortals] Enabling AdvancedPortals v0.2.0
-[01:35:17] [Server thread/INFO]: [AdvancedPortals] Bukkit version detected v1_14_R1
-[01:35:17] [Server thread/INFO]: [AdvancedPortals] BLOCK_PORTAL_TRAVEL found
-[01:35:17] [Server thread/INFO]: [0;32;1mAdvanced portals have been successfully enabled![m
-[01:35:17] [Server thread/INFO]: [EpicSkyblock] Enabling EpicSkyblock v2.0.3
-[01:35:17] [Server thread/INFO]: -------- World Settings For [EpicSkyblock] --------
-[01:35:17] [Server thread/INFO]: View Distance: 10
-[01:35:17] [Server thread/INFO]: Item Despawn Rate: 6000
-[01:35:17] [Server thread/INFO]: Item Merge Radius: 2.5
-[01:35:17] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[01:35:17] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[01:35:17] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[01:35:17] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[01:35:17] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[01:35:17] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[01:35:17] [Server thread/INFO]: Cane Growth Modifier: 100%
-[01:35:17] [Server thread/INFO]: Melon Growth Modifier: 100%
-[01:35:17] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[01:35:17] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[01:35:17] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[01:35:17] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[01:35:17] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[01:35:17] [Server thread/INFO]: Potato Growth Modifier: 100%
-[01:35:17] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[01:35:17] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[01:35:17] [Server thread/INFO]: Vine Growth Modifier: 100%
-[01:35:17] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[01:35:17] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[01:35:17] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[01:35:17] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[01:35:17] [Server thread/INFO]: Experience Merge Radius: 3.0
-[01:35:17] [Server thread/INFO]: Mob Spawn Range: 6
-[01:35:17] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[01:35:17] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[01:35:17] [Server thread/INFO]: Max TNT Explosions: 100
-[01:35:17] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[01:35:17] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[01:35:17] [Server thread/INFO]: Preparing start region for dimension 'EpicSkyblock'/minecraft:overworld
-[01:35:17] [Server thread/INFO]: Preparing spawn area: 0%
-[01:35:17] [Server thread/INFO]: Time elapsed: 491 ms
-[01:35:17] [Server thread/INFO]: [EpicSkyblock] -------------------------------
-[01:35:17] [Server thread/INFO]: [EpicSkyblock] 
-[01:35:17] [Server thread/INFO]: [EpicSkyblock] EpicSkyblock Enabled!
-[01:35:17] [Server thread/INFO]: [EpicSkyblock] 
-[01:35:17] [Server thread/INFO]: [EpicSkyblock] -------------------------------
-[01:35:17] [Server thread/INFO]: [CommandAliases] Enabling CommandAliases v1.0
-[01:35:18] [Server thread/INFO]: [WorldSpawns] Enabling WorldSpawns v2.5
-[01:35:18] [Server thread/INFO]: [WorldSpawns] Loaded config
-[01:35:18] [Server thread/INFO]: [WorldSpawns] Loaded language files
-[01:35:18] [Server thread/INFO]: [WorldSpawns] Loaded data
-[01:35:18] [Server thread/INFO]: [WorldSpawns] Loaded signs
-[01:35:18] [Server thread/INFO]: [WorldSpawns] Loaded WorldSpawns plugin version 2.5.
-[01:35:18] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v2.5-b719
-[01:35:18] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v2.5-b719" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [Rigby, fernferret, lithium3141, main--].
-[01:35:18] [Server thread/INFO]: -------- World Settings For [Creative] --------
-[01:35:18] [Server thread/INFO]: View Distance: 10
-[01:35:18] [Server thread/INFO]: Item Despawn Rate: 6000
-[01:35:18] [Server thread/INFO]: Item Merge Radius: 2.5
-[01:35:18] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[01:35:18] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[01:35:18] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[01:35:18] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[01:35:18] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[01:35:18] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[01:35:18] [Server thread/INFO]: Cane Growth Modifier: 100%
-[01:35:18] [Server thread/INFO]: Melon Growth Modifier: 100%
-[01:35:18] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[01:35:18] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[01:35:18] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[01:35:18] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[01:35:18] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[01:35:18] [Server thread/INFO]: Potato Growth Modifier: 100%
-[01:35:18] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[01:35:18] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[01:35:18] [Server thread/INFO]: Vine Growth Modifier: 100%
-[01:35:18] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[01:35:18] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[01:35:18] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[01:35:18] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[01:35:18] [Server thread/INFO]: Experience Merge Radius: 3.0
-[01:35:18] [Server thread/INFO]: Mob Spawn Range: 6
-[01:35:18] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[01:35:18] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[01:35:18] [Server thread/INFO]: Max TNT Explosions: 100
-[01:35:18] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[01:35:18] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[01:35:18] [Server thread/INFO]: Preparing start region for dimension 'Creative'/minecraft:overworld
-[01:35:18] [Server thread/INFO]: Preparing spawn area: 0%
-[01:35:18] [Server thread/INFO]: Preparing spawn area: 51%
-[01:35:18] [Server thread/INFO]: Time elapsed: 526 ms
-[01:35:18] [Server thread/INFO]: -------- World Settings For [Survival] --------
-[01:35:18] [Server thread/INFO]: View Distance: 10
-[01:35:18] [Server thread/INFO]: Item Despawn Rate: 6000
-[01:35:18] [Server thread/INFO]: Item Merge Radius: 2.5
-[01:35:18] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[01:35:18] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[01:35:18] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[01:35:18] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[01:35:18] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[01:35:18] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[01:35:18] [Server thread/INFO]: Cane Growth Modifier: 100%
-[01:35:18] [Server thread/INFO]: Melon Growth Modifier: 100%
-[01:35:18] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[01:35:18] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[01:35:18] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[01:35:18] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[01:35:18] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[01:35:18] [Server thread/INFO]: Potato Growth Modifier: 100%
-[01:35:18] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[01:35:18] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[01:35:18] [Server thread/INFO]: Vine Growth Modifier: 100%
-[01:35:18] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[01:35:18] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[01:35:18] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[01:35:18] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[01:35:18] [Server thread/INFO]: Experience Merge Radius: 3.0
-[01:35:18] [Server thread/INFO]: Mob Spawn Range: 6
-[01:35:18] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[01:35:18] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[01:35:18] [Server thread/INFO]: Max TNT Explosions: 100
-[01:35:18] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[01:35:18] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[01:35:18] [Server thread/INFO]: Preparing start region for dimension 'Survival'/minecraft:overworld
-[01:35:19] [Server thread/INFO]: Preparing spawn area: 0%
-[01:35:19] [Server thread/INFO]: Preparing spawn area: 0%
-[01:35:19] [Server thread/INFO]: Time elapsed: 743 ms
-[01:35:19] [Server thread/INFO]: [Multiverse-Core] 6 - World(s) loaded.
-[01:35:19] [Server thread/INFO]: [Multiverse-Core] Version 2.5-b719 (API v20) Enabled - By Rigby, fernferret, lithium3141 and main--
-[01:35:19] [Server thread/INFO]: [iZone] Enabling iZone v1.0.35
-[01:35:19] [Server thread/INFO]: [iZone] - Initializing metrics | bStats
-[01:35:19] [Server thread/INFO]: [iZone] Your server is running version 1.0.35
-[01:35:19] [Server thread/WARN]: [ReflectionHelper] Failed to find version enum for 'org.bukkit.craftbukkit.v1_14_R1'/'v1_14_R1.'
-[01:35:19] [Server thread/INFO]: [ReflectionHelper] Generating dynamic constant...
-[01:35:19] [Server thread/INFO]: [ReflectionHelper] Injected dynamic version v1_14_R1 (#10401).
-[01:35:19] [Server thread/INFO]: [ReflectionHelper] Please inform inventivetalent about the outdated version, as this is not guaranteed to work.
-[01:35:19] [Server thread/INFO]: [ReflectionHelper] Version is v1_14_R1 (10401)
-[01:35:19] [Server thread/INFO]: [iZone] Minecraft version is: v1_14_R1 (10401)
-[01:35:19] [Server thread/INFO]: [iZone] Loaded 0 zones
-[01:35:19] [Server thread/INFO]: Locale: "en" | Locale file: messages_en.properties
-[01:35:19] [Server thread/INFO]: [Essentials] Enabling Essentials v2.17.0.0
-[01:35:19] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
-[01:35:19] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
-[01:35:19] [Server thread/INFO]: No kits found to migrate.
-[01:35:19] [Server thread/INFO]: [Essentials] Using 1.8.3+ BlockStateMeta provider as mob spawner provider.
-[01:35:19] [Server thread/INFO]: [Essentials] Using 1.13+ flat spawn egg provider as spawn egg provider.
-[01:35:20] [Server thread/INFO]: [Essentials] Using 1.9+ BasePotionData provider as potion meta provider.
-[01:35:20] [Server thread/INFO]: Loaded 20977 items from items.json.
-[01:35:20] [Server thread/INFO]: Using locale sk_SK
-[01:35:20] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[01:35:20] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[01:35:20] [Server thread/INFO]: [Vault] [Vault][Economy] Essentials Economy hooked.
-[01:35:20] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
-[01:35:20] [Server thread/INFO]: [EssentialsProtect] Enabling EssentialsProtect v2.17.0.0
-[01:35:20] [Server thread/INFO]: [EssentialsProtect] Continuing to enable Protect.
-[01:35:20] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.17.0.0
-[01:35:20] [Server thread/INFO]: [EssentialsGeoIP] Enabling EssentialsGeoIP v2.17.0.0
-[01:35:20] [Server thread/WARN]: Unable to load JDK7 types (annotations, java.nio.file.Path): no Java7 support added
-[01:35:20] [Server thread/INFO]: [EssentialsGeoIP] This product includes GeoLite2 data created by MaxMind, available from http://www.maxmind.com/.
-[01:35:20] [Server thread/INFO]: [EssentialsAntiBuild] Enabling EssentialsAntiBuild v2.17.0.0
-[01:35:20] [Server thread/INFO]: [Shop] Enabling Shop v2.1.1
-[01:35:20] [Server thread/INFO]: Failed to check for an update on Spigot.
-[01:35:20] [Server thread/INFO]: Failed to check for an update on Spigot.
-[01:35:20] [Server thread/INFO]: [Shop] PlaceholderAPI not found, alternative placeholders will be used.
-[01:35:20] [Server thread/INFO]: [Shop] Citizens not found. NPCs will not be available.
-[01:35:20] [Server thread/INFO]: [PerWorldInventory] Enabling PerWorldInventory v2.3.1
-[01:35:20] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.17.0.0
-[01:35:20] [Server thread/INFO]: [EssentialsXMPP] Enabling EssentialsXMPP v2.17.0.0
-[01:35:20] [Server thread/WARN]: config broken for xmpp
-[01:35:20] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[01:35:21] [Server thread/INFO]: Done (10.126s)! For help, type "help"
-[01:35:21] [Craft Scheduler Thread - 7/INFO]: [Vault] Checking for Updates ... 
-[01:35:21] [Craft Scheduler Thread - 7/INFO]: [Vault] No new version available
-[01:35:42] [User Authenticator #1/INFO]: UUID of player z_buffer is 9e9d22b5-8385-3441-8768-bf04cab65bac
-[01:35:43] [Server thread/INFO]: z_buffer[/147.32.114.54:52590] logged in with entity id 90 at ([Survival]1193.1891786003061, 81.0, 1549.954916600744)
-[01:35:43] [Server thread/WARN]: [Essentials] Task #33 for Essentials v2.17.0.0 generated an exception
-java.lang.NullPointerException: null
-	at com.earth2me.essentials.xmpp.XMPPManager.updatePresence(XMPPManager.java:146) ~[?:?]
-	at com.earth2me.essentials.xmpp.EssentialsXMPP.updatePresence(EssentialsXMPP.java:113) ~[?:?]
-	at org.bukkit.craftbukkit.v1_14_R1.scheduler.CraftTask.run(CraftTask.java:81) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at org.bukkit.craftbukkit.v1_14_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:394) [spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.MinecraftServer.b(MinecraftServer.java:1023) [spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.DedicatedServer.b(DedicatedServer.java:396) [spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.MinecraftServer.a(MinecraftServer.java:971) [spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:816) [spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_221]
-[01:35:44] [Server thread/WARN]: [Essentials] Permissions lag notice with (GenericVaultHandler). Response took 60,667000ms. Summary: Getting prefix for z_buffer
-[01:35:53] [Server thread/INFO]: z_buffer issued server command: /spawn
-[01:35:54] [Server thread/INFO]: z_buffer went off with a bang whilst fighting Phantom
-[01:36:12] [Async Chat Thread - #0/INFO]: [[0;37;1mSpawn[0;37;1m][m<[0;31;1m[member]z_buffer[m> .[m
-[01:36:17] [User Authenticator #2/INFO]: UUID of player Hitmann96 is 1a8d7333-ddc1-3883-94f9-272b7e3e2b56
-[01:36:17] [Server thread/INFO]: Hitmann96[/84.245.108.115:57871] logged in with entity id 427 at ([Survival]1185.2554926073, 81.8886757926053, 1571.5524834509552)
-[01:36:17] [Server thread/WARN]: [Essentials] Task #45 for Essentials v2.17.0.0 generated an exception
-java.lang.NullPointerException: null
-	at com.earth2me.essentials.xmpp.XMPPManager.updatePresence(XMPPManager.java:150) ~[?:?]
-	at com.earth2me.essentials.xmpp.EssentialsXMPP.updatePresence(EssentialsXMPP.java:113) ~[?:?]
-	at org.bukkit.craftbukkit.v1_14_R1.scheduler.CraftTask.run(CraftTask.java:81) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at org.bukkit.craftbukkit.v1_14_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:394) [spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.MinecraftServer.b(MinecraftServer.java:1023) [spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.DedicatedServer.b(DedicatedServer.java:396) [spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.MinecraftServer.a(MinecraftServer.java:971) [spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:816) [spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_221]
-[01:36:28] [Server thread/INFO]: Hitmann96 issued server command: /gamemode creative
-[01:36:28] [Server thread/INFO]: ß4Hr·Ëovi ßcHitmann96 ß4bol zamietnut˝ prÌstup k prÌkazu.
-[01:36:51] [Server thread/INFO]: z_buffer issued server command: /tpa Hitmann96
-[01:36:55] [Server thread/INFO]: Hitmann96 issued server command: /tpaccept
-[01:36:55] [Server thread/WARN]: z_buffer moved too quickly! 1081.5154306431637,-12.0,1573.3784494364022
-[01:37:01] [Server thread/INFO]: Made Hitmann96 a server operator
-[01:37:18] [Server thread/INFO]: Hitmann96 was slain by Phantom
-[01:37:23] [Server thread/INFO]: Hitmann96 issued server command: /gamemode creative
-[01:37:30] [Server thread/INFO]: Hitmann96 issued server command: /teleport z_buffer
-[01:37:39] [Server thread/INFO]: Hitmann96 issued server command: /gamemode creative
-[01:38:04] [Server thread/INFO]: Hitmann96 issued server command: /op z_buffer
-[01:38:04] [Server thread/INFO]: [Hitmann96: Made z_buffer a server operator]
-[01:38:06] [Server thread/INFO]: z_buffer issued server command: /gamemode creative
-[01:38:44] [Server thread/INFO]: z_buffer issued server command: /zmod create
-[01:38:50] [Server thread/INFO]: z_buffer issued server command: /help
-[01:38:56] [Server thread/INFO]: z_buffer issued server command: /help izone
-[01:39:06] [Server thread/INFO]: z_buffer issued server command: /help zmod
-[01:39:14] [Server thread/INFO]: z_buffer issued server command: /zmod
-[01:39:14] [Server thread/WARN]: java.lang.IllegalArgumentException: Size for custom inventory must be a multiple of 9 between 9 and 54 slots (got 0)
-[01:39:14] [Server thread/WARN]: 	at org.apache.commons.lang.Validate.isTrue(Validate.java:136)
-[01:39:14] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.createInventory(CraftServer.java:1544)
-[01:39:14] [Server thread/WARN]: 	at org.bukkit.Bukkit.createInventory(Bukkit.java:988)
-[01:39:14] [Server thread/WARN]: 	at net.techguard.izone.Utils.MenuBuilder.inventory.InventoryMenuBuilder.withSize(InventoryMenuBuilder.java:137)
-[01:39:14] [Server thread/WARN]: 	at net.techguard.izone.Utils.MenuBuilder.inventory.InventoryMenuBuilder.<init>(InventoryMenuBuilder.java:79)
-[01:39:14] [Server thread/WARN]: 	at net.techguard.izone.Utils.MenuBuilder.inventory.InventoryMenuBuilder.<init>(InventoryMenuBuilder.java:89)
-[01:39:14] [Server thread/WARN]: 	at net.techguard.izone.Utils.MenuBuilder.PageInventory.<init>(PageInventory.java:31)
-[01:39:14] [Server thread/WARN]: 	at net.techguard.izone.Commands.zmodCommand.onPlayerCommand(zmodCommand.java:219)
-[01:39:14] [Server thread/WARN]: 	at net.techguard.izone.Commands.CommandManager.dispatch(CommandManager.java:54)
-[01:39:14] [Server thread/WARN]: 	at net.techguard.izone.iZone.onCommand(iZone.java:328)
-[01:39:14] [Server thread/WARN]: 	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45)
-[01:39:14] [Server thread/WARN]: 	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:149)
-[01:39:14] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.dispatchCommand(CraftServer.java:710)
-[01:39:14] [Server thread/WARN]: 	at net.minecraft.server.v1_14_R1.PlayerConnection.handleCommand(PlayerConnection.java:1641)
-[01:39:14] [Server thread/WARN]: 	at net.minecraft.server.v1_14_R1.PlayerConnection.a(PlayerConnection.java:1481)
-[01:39:14] [Server thread/WARN]: 	at net.minecraft.server.v1_14_R1.PacketPlayInChat.a(PacketPlayInChat.java:47)
-[01:39:14] [Server thread/WARN]: 	at net.minecraft.server.v1_14_R1.PacketPlayInChat.a(PacketPlayInChat.java:1)
-[01:39:14] [Server thread/WARN]: 	at net.minecraft.server.v1_14_R1.PlayerConnectionUtils.lambda$0(PlayerConnectionUtils.java:19)
-[01:39:14] [Server thread/WARN]: 	at net.minecraft.server.v1_14_R1.TickTask.run(SourceFile:18)
-[01:39:14] [Server thread/WARN]: 	at net.minecraft.server.v1_14_R1.IAsyncTaskHandler.executeTask(SourceFile:144)
-[01:39:14] [Server thread/WARN]: 	at net.minecraft.server.v1_14_R1.IAsyncTaskHandlerReentrant.executeTask(SourceFile:23)
-[01:39:14] [Server thread/WARN]: 	at net.minecraft.server.v1_14_R1.IAsyncTaskHandler.executeNext(SourceFile:118)
-[01:39:14] [Server thread/WARN]: 	at net.minecraft.server.v1_14_R1.MinecraftServer.aX(MinecraftServer.java:910)
-[01:39:14] [Server thread/WARN]: 	at net.minecraft.server.v1_14_R1.MinecraftServer.executeNext(MinecraftServer.java:903)
-[01:39:14] [Server thread/WARN]: 	at net.minecraft.server.v1_14_R1.IAsyncTaskHandler.awaitTasks(SourceFile:127)
-[01:39:14] [Server thread/WARN]: 	at net.minecraft.server.v1_14_R1.MinecraftServer.sleepForTick(MinecraftServer.java:887)
-[01:39:14] [Server thread/WARN]: 	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:820)
-[01:39:14] [Server thread/WARN]: 	at java.lang.Thread.run(Unknown Source)
-[01:55:48] [Server thread/INFO]: z_buffer issued server command: /setworldspawn
-[01:55:48] [Server thread/INFO]: [z_buffer: Set the world spawn point to 1199, 81, 1548]
-[01:55:54] [Server thread/INFO]: Hitmann96 issued server command: /weather sun
-[01:55:55] [Server thread/INFO]: z_buffer issued server command: /spawn
-[01:56:00] [Server thread/INFO]: z_buffer issued server command: /tp Hitmann96
-[01:56:00] [Server thread/WARN]: z_buffer moved too quickly! 1128.9670745271565,4.0,1588.02720847956
-[01:56:22] [Server thread/INFO]: z_buffer issued server command: /tp 1199 81 1548
-[01:56:31] [Server thread/INFO]: z_buffer issued server command: /setS
-[01:56:37] [Server thread/INFO]: z_buffer issued server command: /setspawn
-[01:56:41] [Server thread/INFO]: z_buffer issued server command: /spawn
-[02:03:27] [Async Chat Thread - #1/INFO]: [[0;37;1m[0;37;1m][m<[0;31;1m[member][0;31;22mHitmann96[m> halo[m
-[02:03:40] [Async Chat Thread - #1/INFO]: [[0;37;1m[0;37;1m][m<[0;31;1m[member][0;31;22mz_buffer[m> xD[m
-[02:03:57] [Async Chat Thread - #1/INFO]: [[0;37;1m[0;37;1m][m<[0;31;1m[member][0;31;22mz_buffer[m> troska ta disconnectlo[m
-[02:04:52] [Async Chat Thread - #1/INFO]: [[0;37;1m[0;37;1m][m<[0;31;1m[member][0;31;22mHitmann96[m> 87.197.122.233[m
-[02:04:54] [Async Chat Thread - #1/INFO]: [[0;37;1m[0;37;1m][m<[0;31;1m[member][0;31;22mHitmann96[m> ts[m
-[02:12:33] [Server thread/INFO]: Hitmann96 has made the advancement [Bring Home the Beacon]
-[02:12:33] [Server thread/INFO]: Hitmann96 has reached the goal [Beaconator]
-[02:12:45] [Server thread/INFO]: z_buffer has made the advancement [Diamonds!]
-[02:19:27] [Server thread/INFO]: Hitmann96 has made the advancement [Acquire Hardware]
-[02:19:42] [Server thread/INFO]: Hitmann96 has made the advancement [Diamonds!]
-[02:20:31] [Server thread/INFO]: Hitmann96 issued server command: /fill 1177 58 1570
-[02:21:01] [Server thread/INFO]: Hitmann96 issued server command: /fill 1177 58 1570 1221 78 1526 minecraft:diamond_block
-[02:21:12] [Server thread/INFO]: Hitmann96 issued server command: /fill 1177 65 1570 1221 78 1526 minecraft:diamond_block
-[02:21:12] [Server thread/INFO]: [Hitmann96: Successfully filled 27868 blocks]
-[02:22:17] [Server thread/INFO]: z_buffer has made the advancement [Bring Home the Beacon]
-[02:22:17] [Server thread/INFO]: z_buffer has reached the goal [Beaconator]
-[02:22:19] [Server thread/INFO]: z_buffer issued server command: /fill 1109 74 1539 1207 79 1556 minecraft:diamond_block
-[02:22:19] [Server thread/INFO]: [z_buffer: Successfully filled 7894 blocks]
-[02:28:51] [Server thread/INFO]: z_buffer issued server command: /fill 1109 80 1556 1167 75 1539 minecraft:void_air
-[02:28:51] [Server thread/INFO]: [z_buffer: Successfully filled 5310 blocks]
-[02:29:01] [Server thread/INFO]: z_buffer issued server command: /fill 1109 80 1556 1167 74 1539 minecraft:void_air
-[02:29:01] [Server thread/INFO]: [z_buffer: Successfully filled 1062 blocks]
-[02:32:12] [Server thread/ERROR]: Could not pass event EntityDeathEvent to EpicSkyblock v2.0.3
-org.bukkit.event.EventException: null
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:320) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:529) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:514) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at org.bukkit.craftbukkit.v1_14_R1.event.CraftEventFactory.callEntityDeathEvent(CraftEventFactory.java:708) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.EntityLiving.d(EntityLiving.java:1365) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.EntityLiving.die(EntityLiving.java:1322) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.EntityLiving.damageEntity(EntityLiving.java:1169) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.EntityMonster.damageEntity(SourceFile:72) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.EntityArrow.a(EntityArrow.java:365) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.EntityArrow.a(EntityArrow.java:277) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.EntityArrow.tick(EntityArrow.java:188) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.EntityTippedArrow.tick(EntityTippedArrow.java:87) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.WorldServer.entityJoinedWorld(WorldServer.java:568) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.World.a(World.java:745) [spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.WorldServer.doTick(WorldServer.java:344) [spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.MinecraftServer.b(MinecraftServer.java:1069) [spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.DedicatedServer.b(DedicatedServer.java:396) [spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.MinecraftServer.a(MinecraftServer.java:971) [spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:816) [spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_221]
-Caused by: java.lang.NullPointerException
-	at com.peaches.epicskyblock.listeners.onEntityDeath.onEntityDeath(onEntityDeath.java:17) ~[?:?]
-	at sun.reflect.GeneratedMethodAccessor57.invoke(Unknown Source) ~[?:?]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_221]
-	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_221]
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:316) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	... 20 more
-[02:32:16] [Server thread/ERROR]: Could not pass event EntityDeathEvent to EpicSkyblock v2.0.3
-org.bukkit.event.EventException: null
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:320) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:529) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:514) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at org.bukkit.craftbukkit.v1_14_R1.event.CraftEventFactory.callEntityDeathEvent(CraftEventFactory.java:708) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.EntityLiving.d(EntityLiving.java:1365) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.EntityLiving.die(EntityLiving.java:1322) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.EntityLiving.damageEntity(EntityLiving.java:1169) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.EntityMonster.damageEntity(SourceFile:72) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.EntityArrow.a(EntityArrow.java:365) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.EntityArrow.a(EntityArrow.java:277) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.EntityArrow.tick(EntityArrow.java:188) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.EntityTippedArrow.tick(EntityTippedArrow.java:87) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.WorldServer.entityJoinedWorld(WorldServer.java:568) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.World.a(World.java:745) [spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.WorldServer.doTick(WorldServer.java:344) [spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.MinecraftServer.b(MinecraftServer.java:1069) [spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.DedicatedServer.b(DedicatedServer.java:396) [spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.MinecraftServer.a(MinecraftServer.java:971) [spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:816) [spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_221]
-Caused by: java.lang.NullPointerException
-	at com.peaches.epicskyblock.listeners.onEntityDeath.onEntityDeath(onEntityDeath.java:17) ~[?:?]
-	at sun.reflect.GeneratedMethodAccessor57.invoke(Unknown Source) ~[?:?]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_221]
-	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_221]
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:316) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	... 20 more
-[02:32:20] [Server thread/ERROR]: Could not pass event EntityDeathEvent to EpicSkyblock v2.0.3
-org.bukkit.event.EventException: null
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:320) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:529) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:514) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at org.bukkit.craftbukkit.v1_14_R1.event.CraftEventFactory.callEntityDeathEvent(CraftEventFactory.java:708) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.EntityLiving.d(EntityLiving.java:1365) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.EntityLiving.die(EntityLiving.java:1322) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.EntityLiving.damageEntity(EntityLiving.java:1169) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.EntityMonster.damageEntity(SourceFile:72) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.EntityZombie.damageEntity(EntityZombie.java:264) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.EntityArrow.a(EntityArrow.java:365) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.EntityArrow.a(EntityArrow.java:277) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.EntityArrow.tick(EntityArrow.java:188) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.EntityTippedArrow.tick(EntityTippedArrow.java:87) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.WorldServer.entityJoinedWorld(WorldServer.java:568) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.World.a(World.java:745) [spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.WorldServer.doTick(WorldServer.java:344) [spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.MinecraftServer.b(MinecraftServer.java:1069) [spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.DedicatedServer.b(DedicatedServer.java:396) [spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.MinecraftServer.a(MinecraftServer.java:971) [spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:816) [spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_221]
-Caused by: java.lang.NullPointerException
-	at com.peaches.epicskyblock.listeners.onEntityDeath.onEntityDeath(onEntityDeath.java:17) ~[?:?]
-	at sun.reflect.GeneratedMethodAccessor57.invoke(Unknown Source) ~[?:?]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_221]
-	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_221]
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:316) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	... 21 more
-[02:32:31] [Server thread/ERROR]: Could not pass event EntityDeathEvent to EpicSkyblock v2.0.3
-org.bukkit.event.EventException: null
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:320) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:529) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:514) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at org.bukkit.craftbukkit.v1_14_R1.event.CraftEventFactory.callEntityDeathEvent(CraftEventFactory.java:708) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.EntityLiving.d(EntityLiving.java:1365) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.EntityLiving.die(EntityLiving.java:1322) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.EntityLiving.damageEntity(EntityLiving.java:1169) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.EntityMonster.damageEntity(SourceFile:72) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.EntityArrow.a(EntityArrow.java:365) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.EntityArrow.a(EntityArrow.java:277) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.EntityArrow.tick(EntityArrow.java:188) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.EntityTippedArrow.tick(EntityTippedArrow.java:87) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.WorldServer.entityJoinedWorld(WorldServer.java:568) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.World.a(World.java:745) [spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.WorldServer.doTick(WorldServer.java:344) [spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.MinecraftServer.b(MinecraftServer.java:1069) [spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.DedicatedServer.b(DedicatedServer.java:396) [spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.MinecraftServer.a(MinecraftServer.java:971) [spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:816) [spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_221]
-Caused by: java.lang.NullPointerException
-	at com.peaches.epicskyblock.listeners.onEntityDeath.onEntityDeath(onEntityDeath.java:17) ~[?:?]
-	at sun.reflect.GeneratedMethodAccessor57.invoke(Unknown Source) ~[?:?]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_221]
-	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_221]
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:316) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	... 20 more
-[02:32:33] [Server thread/INFO]: z_buffer issued server command: /spawn
-[02:32:36] [Server thread/ERROR]: Could not pass event EntityDeathEvent to EpicSkyblock v2.0.3
-org.bukkit.event.EventException: null
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:320) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:529) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:514) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at org.bukkit.craftbukkit.v1_14_R1.event.CraftEventFactory.callEntityDeathEvent(CraftEventFactory.java:708) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.EntityLiving.d(EntityLiving.java:1365) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.EntityLiving.die(EntityLiving.java:1322) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.EntityLiving.damageEntity(EntityLiving.java:1169) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.EntityMonster.damageEntity(SourceFile:72) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.EntityArrow.a(EntityArrow.java:365) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.EntityArrow.a(EntityArrow.java:277) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.EntityArrow.tick(EntityArrow.java:188) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.EntityTippedArrow.tick(EntityTippedArrow.java:87) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.WorldServer.entityJoinedWorld(WorldServer.java:568) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.World.a(World.java:745) [spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.WorldServer.doTick(WorldServer.java:344) [spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.MinecraftServer.b(MinecraftServer.java:1069) [spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.DedicatedServer.b(DedicatedServer.java:396) [spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.MinecraftServer.a(MinecraftServer.java:971) [spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:816) [spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_221]
-Caused by: java.lang.NullPointerException
-	at com.peaches.epicskyblock.listeners.onEntityDeath.onEntityDeath(onEntityDeath.java:17) ~[?:?]
-	at sun.reflect.GeneratedMethodAccessor57.invoke(Unknown Source) ~[?:?]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_221]
-	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_221]
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:316) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	... 20 more
-[02:33:26] [Server thread/INFO]: Hitmann96 issued server command: /spawn
-[02:33:31] [Server thread/INFO]: Hitmann96 issued server command: /spawn
-[02:38:06] [Server thread/INFO]: z_buffer issued server command: /deop
-[02:38:08] [Server thread/INFO]: Hitmann96 issued server command: /deop z_buffer
-[02:38:09] [Server thread/INFO]: [Hitmann96: Made z_buffer no longer a server operator]
-[02:38:13] [Server thread/INFO]: z_buffer issued server command: /deop Hitmann96
-[02:38:19] [Server thread/INFO]: Hitmann96 issued server command: /op z_buffer
-[02:38:19] [Server thread/INFO]: [Hitmann96: Made z_buffer a server operator]
-[02:38:23] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
-[02:38:30] [Server thread/INFO]: Made Hitmann96 no longer a server operator
-[02:38:42] [Server thread/INFO]: z_buffer issued server command: /teleport Hitmann96
-[02:38:42] [Server thread/WARN]: z_buffer moved too quickly! 9.453230989139911,2.7513888797108166,-5.214353640382342
-[02:39:06] [Server thread/INFO]: z_buffer issued server command: /gamemode survival Hitmann96
-[02:39:20] [Server thread/INFO]: z_buffer issued server command: /op Hitmann96
-[02:39:20] [Server thread/INFO]: [z_buffer: Made Hitmann96 a server operator]
-[02:39:26] [Server thread/INFO]: z_buffer issued server command: /gamemode creative Hitmann96
-[02:40:24] [Server thread/INFO]: Hitmann96 lost connection: Disconnected
-[02:40:24] [Server thread/INFO]: Hitmann96 left the game
-[02:40:24] [Server thread/WARN]: [Essentials] Task #2691 for Essentials v2.17.0.0 generated an exception
-java.lang.NullPointerException: null
-	at com.earth2me.essentials.xmpp.XMPPManager.updatePresence(XMPPManager.java:146) ~[?:?]
-	at com.earth2me.essentials.xmpp.EssentialsXMPP.updatePresence(EssentialsXMPP.java:113) ~[?:?]
-	at org.bukkit.craftbukkit.v1_14_R1.scheduler.CraftTask.run(CraftTask.java:81) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at org.bukkit.craftbukkit.v1_14_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:394) [spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.MinecraftServer.b(MinecraftServer.java:1023) [spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.DedicatedServer.b(DedicatedServer.java:396) [spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.MinecraftServer.a(MinecraftServer.java:971) [spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:816) [spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_221]
-[02:51:39] [Server thread/ERROR]: Could not pass event EntityDeathEvent to EpicSkyblock v2.0.3
-org.bukkit.event.EventException: null
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:320) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:529) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:514) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at org.bukkit.craftbukkit.v1_14_R1.event.CraftEventFactory.callEntityDeathEvent(CraftEventFactory.java:708) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.EntityLiving.d(EntityLiving.java:1365) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.EntityLiving.die(EntityLiving.java:1322) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.EntityLiving.damageEntity(EntityLiving.java:1169) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.EntityMonster.damageEntity(SourceFile:72) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.EntityZombie.damageEntity(EntityZombie.java:264) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.EntityHuman.attack(EntityHuman.java:1018) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.EntityPlayer.attack(EntityPlayer.java:1536) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.PlayerConnection.a(PlayerConnection.java:1864) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.PacketPlayInUseEntity.a(SourceFile:69) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.PacketPlayInUseEntity.a(SourceFile:13) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.PlayerConnectionUtils.lambda$0(PlayerConnectionUtils.java:19) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.TickTask.run(SourceFile:18) [spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.IAsyncTaskHandler.executeTask(SourceFile:144) [spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.IAsyncTaskHandlerReentrant.executeTask(SourceFile:23) [spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.IAsyncTaskHandler.executeNext(SourceFile:118) [spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.MinecraftServer.aX(MinecraftServer.java:910) [spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.MinecraftServer.executeNext(MinecraftServer.java:903) [spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.IAsyncTaskHandler.executeAll(SourceFile:103) [spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.MinecraftServer.sleepForTick(MinecraftServer.java:886) [spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:820) [spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_221]
-Caused by: java.lang.NullPointerException
-	at com.peaches.epicskyblock.listeners.onEntityDeath.onEntityDeath(onEntityDeath.java:17) ~[?:?]
-	at sun.reflect.GeneratedMethodAccessor57.invoke(Unknown Source) ~[?:?]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_221]
-	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_221]
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:316) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	... 25 more
-[02:52:32] [Server thread/ERROR]: Could not pass event EntityDeathEvent to EpicSkyblock v2.0.3
-org.bukkit.event.EventException: null
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:320) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:529) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:514) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at org.bukkit.craftbukkit.v1_14_R1.event.CraftEventFactory.callEntityDeathEvent(CraftEventFactory.java:708) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.EntityLiving.d(EntityLiving.java:1365) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.EntityLiving.die(EntityLiving.java:1322) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.EntityLiving.damageEntity(EntityLiving.java:1169) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.EntityMonster.damageEntity(SourceFile:72) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.EntityZombie.damageEntity(EntityZombie.java:264) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.EntityHuman.attack(EntityHuman.java:1018) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.EntityPlayer.attack(EntityPlayer.java:1536) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.PlayerConnection.a(PlayerConnection.java:1864) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.PacketPlayInUseEntity.a(SourceFile:69) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.PacketPlayInUseEntity.a(SourceFile:13) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.PlayerConnectionUtils.lambda$0(PlayerConnectionUtils.java:19) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.TickTask.run(SourceFile:18) [spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.IAsyncTaskHandler.executeTask(SourceFile:144) [spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.IAsyncTaskHandlerReentrant.executeTask(SourceFile:23) [spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.IAsyncTaskHandler.executeNext(SourceFile:118) [spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.MinecraftServer.aX(MinecraftServer.java:910) [spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.MinecraftServer.executeNext(MinecraftServer.java:903) [spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.IAsyncTaskHandler.awaitTasks(SourceFile:127) [spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.MinecraftServer.sleepForTick(MinecraftServer.java:887) [spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:820) [spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_221]
-Caused by: java.lang.NullPointerException
-	at com.peaches.epicskyblock.listeners.onEntityDeath.onEntityDeath(onEntityDeath.java:17) ~[?:?]
-	at sun.reflect.GeneratedMethodAccessor57.invoke(Unknown Source) ~[?:?]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_221]
-	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_221]
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:316) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	... 25 more
-[03:03:34] [Server thread/INFO]: z_buffer issued server command: /spawn
-[03:03:49] [Server thread/INFO]: z_buffer issued server command: /spawn
-[03:03:50] [Server thread/INFO]: z_buffer issued server command: /spawn
-[03:03:50] [Server thread/INFO]: z_buffer issued server command: /spawn
-[03:03:51] [Server thread/INFO]: z_buffer issued server command: /spawn
-[03:03:51] [Server thread/INFO]: z_buffer issued server command: /spawn
-[03:03:51] [Server thread/INFO]: z_buffer issued server command: /spawn
-[03:03:52] [Server thread/INFO]: z_buffer issued server command: /spawn
-[03:21:09] [Server thread/ERROR]: Could not pass event EntityDeathEvent to EpicSkyblock v2.0.3
-org.bukkit.event.EventException: null
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:320) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:529) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:514) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at org.bukkit.craftbukkit.v1_14_R1.event.CraftEventFactory.callEntityDeathEvent(CraftEventFactory.java:708) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.EntityLiving.d(EntityLiving.java:1365) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.EntityLiving.die(EntityLiving.java:1322) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.EntityLiving.damageEntity(EntityLiving.java:1169) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.EntityHorseAbstract.damageEntity(EntityHorseAbstract.java:160) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.Entity.burnFromLava(Entity.java:441) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.Entity.entityBaseTick(Entity.java:395) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.EntityLiving.entityBaseTick(EntityLiving.java:236) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.EntityInsentient.entityBaseTick(EntityInsentient.java:210) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.Entity.tick(Entity.java:346) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.EntityLiving.tick(EntityLiving.java:2217) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.EntityInsentient.tick(EntityInsentient.java:273) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.EntityHorseAbstract.tick(EntityHorseAbstract.java:509) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.WorldServer.entityJoinedWorld(WorldServer.java:568) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.World.a(World.java:745) [spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.WorldServer.doTick(WorldServer.java:344) [spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.MinecraftServer.b(MinecraftServer.java:1069) [spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.DedicatedServer.b(DedicatedServer.java:396) [spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.MinecraftServer.a(MinecraftServer.java:971) [spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:816) [spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_221]
-Caused by: java.lang.NullPointerException
-	at com.peaches.epicskyblock.listeners.onEntityDeath.onEntityDeath(onEntityDeath.java:17) ~[?:?]
-	at sun.reflect.GeneratedMethodAccessor57.invoke(Unknown Source) ~[?:?]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_221]
-	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_221]
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:316) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	... 24 more
-[03:21:10] [Server thread/ERROR]: Could not pass event EntityDeathEvent to EpicSkyblock v2.0.3
-org.bukkit.event.EventException: null
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:320) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:529) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:514) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at org.bukkit.craftbukkit.v1_14_R1.event.CraftEventFactory.callEntityDeathEvent(CraftEventFactory.java:708) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.EntityLiving.d(EntityLiving.java:1365) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.EntityLiving.die(EntityLiving.java:1322) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.EntityLiving.damageEntity(EntityLiving.java:1169) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.EntityMonster.damageEntity(SourceFile:72) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.EntityZombie.damageEntity(EntityZombie.java:264) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.Entity.burnFromLava(Entity.java:441) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.Entity.entityBaseTick(Entity.java:395) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.EntityLiving.entityBaseTick(EntityLiving.java:236) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.EntityInsentient.entityBaseTick(EntityInsentient.java:210) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.Entity.tick(Entity.java:346) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.EntityLiving.tick(EntityLiving.java:2217) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.EntityInsentient.tick(EntityInsentient.java:273) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.EntityMonster.tick(SourceFile:51) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.EntityZombie.tick(EntityZombie.java:176) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.WorldServer.entityJoinedWorld(WorldServer.java:568) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.World.a(World.java:745) [spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.WorldServer.doTick(WorldServer.java:344) [spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.MinecraftServer.b(MinecraftServer.java:1069) [spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.DedicatedServer.b(DedicatedServer.java:396) [spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.MinecraftServer.a(MinecraftServer.java:971) [spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:816) [spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_221]
-Caused by: java.lang.NullPointerException
-	at com.peaches.epicskyblock.listeners.onEntityDeath.onEntityDeath(onEntityDeath.java:17) ~[?:?]
-	at sun.reflect.GeneratedMethodAccessor57.invoke(Unknown Source) ~[?:?]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_221]
-	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_221]
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:316) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	... 26 more
-[03:22:37] [Server thread/INFO]: z_buffer lost connection: Disconnected
-[03:22:37] [Server thread/INFO]: z_buffer left the game
-[03:22:37] [Server thread/WARN]: [Essentials] Task #2753 for Essentials v2.17.0.0 generated an exception
-java.lang.NullPointerException: null
-	at com.earth2me.essentials.xmpp.XMPPManager.updatePresence(XMPPManager.java:142) ~[?:?]
-	at com.earth2me.essentials.xmpp.EssentialsXMPP.updatePresence(EssentialsXMPP.java:113) ~[?:?]
-	at org.bukkit.craftbukkit.v1_14_R1.scheduler.CraftTask.run(CraftTask.java:81) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at org.bukkit.craftbukkit.v1_14_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:394) [spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.MinecraftServer.b(MinecraftServer.java:1023) [spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.DedicatedServer.b(DedicatedServer.java:396) [spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.MinecraftServer.a(MinecraftServer.java:971) [spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:816) [spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_221]
-[03:23:06] [pool-6-thread-1/INFO]: [0;37;22m[21m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m[21m] [0;32;1mNo changes were applied from the web editor. The returned data didn't contain any edits.[m
-[03:23:12] [Server thread/INFO]: CONSOLE issued server command: /top 
-[03:23:12] [Server thread/INFO]: [0;31;1mChyba:[0;31;22m [0;31;22mLen hr·Ëi v hre mÙûu pouûÌvaù [0;31;1mtop[0;31;22m.[m
-[03:23:18] [Server thread/INFO]: Stopping the server
-[03:23:18] [Server thread/INFO]: Stopping server
-[03:23:18] [Server thread/INFO]: [EssentialsXMPP] Disabling EssentialsXMPP v2.17.0.0
-[03:23:18] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.17.0.0
-[03:23:18] [Server thread/INFO]: [PerWorldInventory] Disabling PerWorldInventory v2.3.1
-[03:23:18] [Server thread/INFO]: [Shop] Disabling Shop v2.1.1
-[03:23:18] [Server thread/INFO]: [EssentialsAntiBuild] Disabling EssentialsAntiBuild v2.17.0.0
-[03:23:18] [Server thread/INFO]: [EssentialsGeoIP] Disabling EssentialsGeoIP v2.17.0.0
-[03:23:18] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.17.0.0
-[03:23:18] [Server thread/INFO]: [EssentialsProtect] Disabling EssentialsProtect v2.17.0.0
-[03:23:18] [Server thread/INFO]: [Essentials] Disabling Essentials v2.17.0.0
-[03:23:18] [Server thread/INFO]: [Vault] [Vault][Economy] Essentials Economy unhooked.
-[03:23:18] [Server thread/INFO]: [iZone] Disabling iZone v1.0.35
-[03:23:18] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v2.5-b719
-[03:23:18] [Server thread/INFO]: [Vault] Disabling Vault v1.7.2-b107
-[03:23:18] [Server thread/INFO]: [WorldSpawns] Disabling WorldSpawns v2.5
-[03:23:18] [Server thread/INFO]: [CommandAliases] Disabling CommandAliases v1.0
-[03:23:18] [Server thread/INFO]: [EpicSkyblock] Disabling EpicSkyblock v2.0.3
-[03:23:18] [Server thread/INFO]: [EpicSkyblock] -------------------------------
-[03:23:18] [Server thread/INFO]: [EpicSkyblock] 
-[03:23:18] [Server thread/INFO]: [EpicSkyblock] EpicSkyblock Disabled!
-[03:23:18] [Server thread/INFO]: [EpicSkyblock] 
-[03:23:18] [Server thread/INFO]: [EpicSkyblock] -------------------------------
-[03:23:18] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v4.4.1
-[03:23:18] [Server thread/INFO]: [LuckPerms] Closing storage...
-[03:23:18] [Server thread/INFO]: [LuckPerms] Shutting down internal scheduler...
-[03:23:18] [Server thread/INFO]: [LuckPerms] Goodbye!
-[03:23:18] [Server thread/INFO]: [AdvancedPortals] Disabling AdvancedPortals v0.2.0
-[03:23:18] [Server thread/INFO]: [0;31;1mAdvanced portals are being disabled![m
-[03:23:18] [Server thread/INFO]: Saving players
-[03:23:18] [Server thread/INFO]: Saving worlds
-[03:23:18] [Server thread/INFO]: Saving chunks for level 'Spawn'/minecraft:overworld
-[03:23:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (Spawn): All chunks are saved
-[03:23:18] [Server thread/INFO]: Saving chunks for level 'Spawn_nether'/minecraft:the_nether
-[03:23:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[03:23:19] [Server thread/INFO]: Saving chunks for level 'Spawn_the_end'/minecraft:the_end
-[03:23:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[03:23:19] [Server thread/INFO]: Saving chunks for level 'EpicSkyblock'/minecraft:epicskyblock
-[03:23:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (EpicSkyblock): All chunks are saved
-[03:23:19] [Server thread/INFO]: Saving chunks for level 'Creative'/minecraft:creative
-[03:23:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (Creative): All chunks are saved
-[03:23:19] [Server thread/INFO]: Saving chunks for level 'Survival'/minecraft:survival
-[03:23:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (Survival): All chunks are saved
-[03:23:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (Spawn): All chunks are saved
-[03:23:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[03:23:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[03:23:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (EpicSkyblock): All chunks are saved
-[03:23:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (Creative): All chunks are saved
-[03:23:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (Survival): All chunks are saved
+[01:34:11] [Server thread/INFO]: Loading properties
+[01:34:12] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-9de398a-9c887d4 (MC: 1.14.4) (Implementing API version 1.14.4-R0.1-SNAPSHOT)
+[01:34:12] [Server thread/INFO]: Debug logging is disabled
+[01:34:12] [Server thread/INFO]: Using 4 threads for Netty based IO
+[01:34:12] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[01:34:12] [Server thread/INFO]: Default game type: SURVIVAL
+[01:34:12] [Server thread/INFO]: Generating keypair
+[01:34:12] [Server thread/INFO]: Starting Minecraft server on *:25565
+[01:34:12] [Server thread/INFO]: Using default channel type
+[01:34:17] [Server thread/WARN]: Plugin EpicSkyblock v2.0.3 does not specify an api-version.
+[01:34:17] [Server thread/WARN]: Plugin CommandAliases v1.0 does not specify an api-version.
+[01:34:17] [Server thread/WARN]: Plugin Multiverse-Core v2.5-b719 does not specify an api-version.
+[01:34:17] [Server thread/WARN]: Plugin iZone v1.0.35 does not specify an api-version.
+[01:34:17] [Server thread/INFO]: [AdvancedPortals] Loading AdvancedPortals v0.2.0
+[01:34:17] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v4.4.1
+[01:34:18] [Server thread/INFO]: [EpicSkyblock] Loading EpicSkyblock v2.0.3
+[01:34:18] [Server thread/INFO]: [CommandAliases] Loading CommandAliases v1.0
+[01:34:18] [Server thread/INFO]: [WorldSpawns] Loading WorldSpawns v2.5
+[01:34:18] [Server thread/INFO]: [Vault] Loading Vault v1.7.2-b107
+[01:34:18] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v2.5-b719
+[01:34:18] [Server thread/INFO]: [iZone] Loading iZone v1.0.35
+[01:34:18] [Server thread/INFO]: [Essentials] Loading Essentials v2.17.0.0
+[01:34:18] [Server thread/INFO]: [EssentialsProtect] Loading EssentialsProtect v2.17.0.0
+[01:34:18] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.17.0.0
+[01:34:18] [Server thread/INFO]: [EssentialsGeoIP] Loading EssentialsGeoIP v2.17.0.0
+[01:34:18] [Server thread/INFO]: [EssentialsAntiBuild] Loading EssentialsAntiBuild v2.17.0.0
+[01:34:18] [Server thread/INFO]: [Shop] Loading Shop v2.1.1
+[01:34:18] [Server thread/INFO]: [PerWorldInventory] Loading PerWorldInventory v2.3.1
+[01:34:18] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v4.4.1
+[01:34:18] [Server thread/INFO]: [0;36;1m       [0;36;22m __    [m
+[01:34:18] [Server thread/INFO]: [0;36;1m  |    [0;36;22m|__)   [0;32;22mLuckPerms [0;36;1mv4.4.1[m
+[01:34:18] [Server thread/INFO]: [0;36;1m  |___ [0;36;22m|      [0;30;1mRunning on Bukkit - CraftBukkit[m
+[01:34:18] [Server thread/INFO]: [m
+[01:34:18] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[01:34:18] [Server thread/INFO]: [LuckPerms] Loading storage provider... [YAML]
+[01:34:19] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[01:34:19] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[01:34:19] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1770ms)
+[01:34:19] [Server thread/INFO]: [Vault] Enabling Vault v1.7.2-b107
+[01:34:19] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[01:34:19] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[01:34:19] [Server thread/INFO]: [Vault] Enabled Version 1.7.2-b107
+[01:34:19] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[01:34:19] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[01:34:19] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[01:34:19] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[01:34:19] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[01:34:20] [Server thread/INFO]: Preparing level "Spawn"
+[01:34:20] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[01:34:20] [Server thread/INFO]: Loaded 6 recipes
+[01:34:20] [Server thread/INFO]: -------- World Settings For [Spawn] --------
+[01:34:20] [Server thread/INFO]: View Distance: 10
+[01:34:20] [Server thread/INFO]: Item Despawn Rate: 6000
+[01:34:20] [Server thread/INFO]: Item Merge Radius: 2.5
+[01:34:20] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[01:34:20] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[01:34:20] [Server thread/INFO]: Experience Merge Radius: 3.0
+[01:34:20] [Server thread/INFO]: Mob Spawn Range: 6
+[01:34:20] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[01:34:20] [Server thread/INFO]: Cane Growth Modifier: 100%
+[01:34:20] [Server thread/INFO]: Melon Growth Modifier: 100%
+[01:34:20] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[01:34:20] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[01:34:20] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[01:34:20] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[01:34:20] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[01:34:20] [Server thread/INFO]: Potato Growth Modifier: 100%
+[01:34:20] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[01:34:20] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[01:34:20] [Server thread/INFO]: Vine Growth Modifier: 100%
+[01:34:20] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[01:34:20] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[01:34:20] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[01:34:20] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[01:34:20] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[01:34:20] [Server thread/INFO]: Max TNT Explosions: 100
+[01:34:20] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[01:34:20] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[01:34:20] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[01:34:20] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[01:34:20] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[01:34:20] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[01:34:20] [Server thread/INFO]: -------- World Settings For [Spawn_nether] --------
+[01:34:20] [Server thread/INFO]: View Distance: 10
+[01:34:20] [Server thread/INFO]: Item Despawn Rate: 6000
+[01:34:20] [Server thread/INFO]: Item Merge Radius: 2.5
+[01:34:20] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[01:34:20] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[01:34:20] [Server thread/INFO]: Experience Merge Radius: 3.0
+[01:34:20] [Server thread/INFO]: Mob Spawn Range: 6
+[01:34:20] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[01:34:20] [Server thread/INFO]: Cane Growth Modifier: 100%
+[01:34:20] [Server thread/INFO]: Melon Growth Modifier: 100%
+[01:34:20] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[01:34:20] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[01:34:20] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[01:34:20] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[01:34:20] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[01:34:20] [Server thread/INFO]: Potato Growth Modifier: 100%
+[01:34:20] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[01:34:20] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[01:34:20] [Server thread/INFO]: Vine Growth Modifier: 100%
+[01:34:20] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[01:34:20] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[01:34:20] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[01:34:20] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[01:34:20] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[01:34:20] [Server thread/INFO]: Max TNT Explosions: 100
+[01:34:20] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[01:34:20] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[01:34:20] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[01:34:20] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[01:34:20] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[01:34:20] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[01:34:21] [Server thread/INFO]: -------- World Settings For [Spawn_the_end] --------
+[01:34:21] [Server thread/INFO]: View Distance: 10
+[01:34:21] [Server thread/INFO]: Item Despawn Rate: 6000
+[01:34:21] [Server thread/INFO]: Item Merge Radius: 2.5
+[01:34:21] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[01:34:21] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[01:34:21] [Server thread/INFO]: Experience Merge Radius: 3.0
+[01:34:21] [Server thread/INFO]: Mob Spawn Range: 6
+[01:34:21] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[01:34:21] [Server thread/INFO]: Cane Growth Modifier: 100%
+[01:34:21] [Server thread/INFO]: Melon Growth Modifier: 100%
+[01:34:21] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[01:34:21] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[01:34:21] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[01:34:21] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[01:34:21] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[01:34:21] [Server thread/INFO]: Potato Growth Modifier: 100%
+[01:34:21] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[01:34:21] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[01:34:21] [Server thread/INFO]: Vine Growth Modifier: 100%
+[01:34:21] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[01:34:21] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[01:34:21] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[01:34:21] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[01:34:21] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[01:34:21] [Server thread/INFO]: Max TNT Explosions: 100
+[01:34:21] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[01:34:21] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[01:34:21] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[01:34:21] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[01:34:21] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[01:34:21] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[01:34:21] [Server thread/INFO]: Preparing start region for dimension 'Spawn'/minecraft:overworld
+[01:34:21] [Server thread/INFO]: Preparing spawn area: 0%
+[01:34:21] [Server thread/INFO]: Preparing spawn area: 0%
+[01:34:22] [Server thread/INFO]: Preparing spawn area: 25%
+[01:34:22] [Server thread/INFO]: Time elapsed: 1080 ms
+[01:34:22] [Server thread/INFO]: Preparing start region for dimension 'Spawn_nether'/minecraft:the_nether
+[01:34:22] [Server thread/INFO]: Preparing spawn area: 0%
+[01:34:22] [Server thread/INFO]: Preparing spawn area: 0%
+[01:34:23] [Server-Worker-3/INFO]: Preparing spawn area: 83%
+[01:34:23] [Server-Worker-2/INFO]: Preparing spawn area: 83%
+[01:34:24] [Server-Worker-1/INFO]: Preparing spawn area: 83%
+[01:34:24] [Server thread/INFO]: Time elapsed: 2143 ms
+[01:34:24] [Server thread/INFO]: Preparing start region for dimension 'Spawn_the_end'/minecraft:the_end
+[01:34:24] [Server thread/INFO]: Preparing spawn area: 0%
+[01:34:24] [Server-Worker-1/INFO]: Preparing spawn area: 83%
+[01:34:25] [Server thread/INFO]: Time elapsed: 983 ms
+[01:34:25] [Server thread/INFO]: [AdvancedPortals] Enabling AdvancedPortals v0.2.0
+[01:34:25] [Server thread/INFO]: [AdvancedPortals] Bukkit version detected v1_14_R1
+[01:34:25] [Server thread/INFO]: [AdvancedPortals] BLOCK_PORTAL_TRAVEL found
+[01:34:25] [Server thread/INFO]: [0;32;1mAdvanced portals have been successfully enabled![m
+[01:34:25] [Server thread/INFO]: [EpicSkyblock] Enabling EpicSkyblock v2.0.3
+[01:34:25] [Server thread/INFO]: -------- World Settings For [EpicSkyblock] --------
+[01:34:25] [Server thread/INFO]: View Distance: 10
+[01:34:25] [Server thread/INFO]: Item Despawn Rate: 6000
+[01:34:25] [Server thread/INFO]: Item Merge Radius: 2.5
+[01:34:25] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[01:34:25] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[01:34:25] [Server thread/INFO]: Experience Merge Radius: 3.0
+[01:34:25] [Server thread/INFO]: Mob Spawn Range: 6
+[01:34:25] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[01:34:25] [Server thread/INFO]: Cane Growth Modifier: 100%
+[01:34:25] [Server thread/INFO]: Melon Growth Modifier: 100%
+[01:34:25] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[01:34:25] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[01:34:25] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[01:34:25] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[01:34:25] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[01:34:25] [Server thread/INFO]: Potato Growth Modifier: 100%
+[01:34:25] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[01:34:25] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[01:34:25] [Server thread/INFO]: Vine Growth Modifier: 100%
+[01:34:25] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[01:34:25] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[01:34:25] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[01:34:25] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[01:34:25] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[01:34:25] [Server thread/INFO]: Max TNT Explosions: 100
+[01:34:25] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[01:34:25] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[01:34:25] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[01:34:25] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[01:34:25] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[01:34:25] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[01:34:25] [Server thread/INFO]: Preparing start region for dimension 'EpicSkyblock'/minecraft:overworld
+[01:34:25] [Server thread/INFO]: Preparing spawn area: 0%
+[01:34:25] [Server thread/INFO]: Time elapsed: 410 ms
+[01:34:25] [Server thread/INFO]: [EpicSkyblock] -------------------------------
+[01:34:25] [Server thread/INFO]: [EpicSkyblock] 
+[01:34:25] [Server thread/INFO]: [EpicSkyblock] EpicSkyblock Enabled!
+[01:34:25] [Server thread/INFO]: [EpicSkyblock] 
+[01:34:25] [Server thread/INFO]: [EpicSkyblock] -------------------------------
+[01:34:25] [Server thread/INFO]: [CommandAliases] Enabling CommandAliases v1.0
+[01:34:26] [Server thread/WARN]: java.io.FileNotFoundException: http://kineticraft.net/checkUpdate.php?plugin=CommandAliases
+[01:34:26] [Server thread/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+[01:34:26] [Server thread/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+[01:34:26] [Server thread/WARN]: 	at com.snap.alias.Updater.httpRequest(Updater.java:51)
+[01:34:26] [Server thread/WARN]: 	at com.snap.alias.Updater.isUpToDate(Updater.java:63)
+[01:34:26] [Server thread/WARN]: 	at com.snap.alias.CommandAliases.onEnable(CommandAliases.java:13)
+[01:34:26] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:263)
+[01:34:26] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:352)
+[01:34:26] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:417)
+[01:34:26] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.enablePlugin(CraftServer.java:461)
+[01:34:26] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.enablePlugins(CraftServer.java:375)
+[01:34:26] [Server thread/WARN]: 	at net.minecraft.server.v1_14_R1.MinecraftServer.a(MinecraftServer.java:449)
+[01:34:26] [Server thread/WARN]: 	at net.minecraft.server.v1_14_R1.DedicatedServer.init(DedicatedServer.java:258)
+[01:34:26] [Server thread/WARN]: 	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:776)
+[01:34:26] [Server thread/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[01:34:26] [Server thread/INFO]: [WorldSpawns] Enabling WorldSpawns v2.5
+[01:34:26] [Server thread/INFO]: [WorldSpawns] Loaded config
+[01:34:26] [Server thread/INFO]: [WorldSpawns] Loaded language files
+[01:34:26] [Server thread/INFO]: [WorldSpawns] Loaded data
+[01:34:26] [Server thread/INFO]: [WorldSpawns] Loaded signs
+[01:34:26] [Server thread/INFO]: [WorldSpawns] Loaded WorldSpawns plugin version 2.5.
+[01:34:26] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v2.5-b719
+[01:34:26] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v2.5-b719" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [Rigby, fernferret, lithium3141, main--].
+[01:34:26] [Server thread/INFO]: -------- World Settings For [Creative] --------
+[01:34:26] [Server thread/INFO]: View Distance: 10
+[01:34:26] [Server thread/INFO]: Item Despawn Rate: 6000
+[01:34:26] [Server thread/INFO]: Item Merge Radius: 2.5
+[01:34:26] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[01:34:26] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[01:34:26] [Server thread/INFO]: Experience Merge Radius: 3.0
+[01:34:26] [Server thread/INFO]: Mob Spawn Range: 6
+[01:34:26] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[01:34:26] [Server thread/INFO]: Cane Growth Modifier: 100%
+[01:34:26] [Server thread/INFO]: Melon Growth Modifier: 100%
+[01:34:26] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[01:34:26] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[01:34:26] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[01:34:26] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[01:34:26] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[01:34:26] [Server thread/INFO]: Potato Growth Modifier: 100%
+[01:34:26] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[01:34:26] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[01:34:26] [Server thread/INFO]: Vine Growth Modifier: 100%
+[01:34:26] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[01:34:26] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[01:34:26] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[01:34:26] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[01:34:26] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[01:34:26] [Server thread/INFO]: Max TNT Explosions: 100
+[01:34:26] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[01:34:26] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[01:34:26] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[01:34:26] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[01:34:26] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[01:34:26] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[01:34:26] [Server thread/INFO]: Preparing start region for dimension 'Creative'/minecraft:overworld
+[01:34:26] [Server thread/INFO]: Preparing spawn area: 0%
+[01:34:26] [Server thread/INFO]: Time elapsed: 446 ms
+[01:34:26] [Server thread/INFO]: -------- World Settings For [Survival] --------
+[01:34:26] [Server thread/INFO]: View Distance: 10
+[01:34:26] [Server thread/INFO]: Item Despawn Rate: 6000
+[01:34:26] [Server thread/INFO]: Item Merge Radius: 2.5
+[01:34:26] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[01:34:26] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[01:34:26] [Server thread/INFO]: Experience Merge Radius: 3.0
+[01:34:26] [Server thread/INFO]: Mob Spawn Range: 6
+[01:34:26] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[01:34:26] [Server thread/INFO]: Cane Growth Modifier: 100%
+[01:34:26] [Server thread/INFO]: Melon Growth Modifier: 100%
+[01:34:26] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[01:34:26] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[01:34:26] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[01:34:26] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[01:34:26] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[01:34:26] [Server thread/INFO]: Potato Growth Modifier: 100%
+[01:34:26] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[01:34:26] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[01:34:26] [Server thread/INFO]: Vine Growth Modifier: 100%
+[01:34:26] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[01:34:26] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[01:34:26] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[01:34:26] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[01:34:26] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[01:34:26] [Server thread/INFO]: Max TNT Explosions: 100
+[01:34:26] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[01:34:26] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[01:34:26] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[01:34:26] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[01:34:26] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[01:34:26] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[01:34:26] [Server thread/INFO]: Preparing start region for dimension 'Survival'/minecraft:overworld
+[01:34:27] [Server thread/INFO]: Preparing spawn area: 0%
+[01:34:27] [Server thread/INFO]: Preparing spawn area: 0%
+[01:34:27] [Server thread/INFO]: Time elapsed: 867 ms
+[01:34:27] [Server thread/INFO]: [Multiverse-Core] 6 - World(s) loaded.
+[01:34:27] [Server thread/INFO]: [Multiverse-Core] Version 2.5-b719 (API v20) Enabled - By Rigby, fernferret, lithium3141 and main--
+[01:34:27] [Server thread/INFO]: [iZone] Enabling iZone v1.0.35
+[01:34:27] [Server thread/INFO]: [iZone] - Initializing metrics | bStats
+[01:34:27] [Server thread/INFO]: [iZone] Your server is running version 1.0.35
+[01:34:27] [Server thread/WARN]: [ReflectionHelper] Failed to find version enum for 'org.bukkit.craftbukkit.v1_14_R1'/'v1_14_R1.'
+[01:34:27] [Server thread/INFO]: [ReflectionHelper] Generating dynamic constant...
+[01:34:27] [Server thread/INFO]: [ReflectionHelper] Injected dynamic version v1_14_R1 (#10401).
+[01:34:27] [Server thread/INFO]: [ReflectionHelper] Please inform inventivetalent about the outdated version, as this is not guaranteed to work.
+[01:34:27] [Server thread/INFO]: [ReflectionHelper] Version is v1_14_R1 (10401)
+[01:34:27] [Server thread/INFO]: [iZone] Minecraft version is: v1_14_R1 (10401)
+[01:34:27] [Server thread/INFO]: [iZone] Loaded 1 zones
+[01:34:27] [Server thread/INFO]: Locale: "en" | Locale file: messages_en.properties
+[01:34:27] [Server thread/INFO]: [Essentials] Enabling Essentials v2.17.0.0
+[01:34:27] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[01:34:27] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[01:34:27] [Server thread/INFO]: No kits found to migrate.
+[01:34:28] [Server thread/INFO]: [Essentials] Using 1.8.3+ BlockStateMeta provider as mob spawner provider.
+[01:34:28] [Server thread/INFO]: [Essentials] Using 1.13+ flat spawn egg provider as spawn egg provider.
+[01:34:28] [Server thread/INFO]: [Essentials] Using 1.9+ BasePotionData provider as potion meta provider.
+[01:34:28] [Server thread/INFO]: Loaded 20977 items from items.json.
+[01:34:28] [Server thread/INFO]: Using locale sk_SK
+[01:34:28] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[01:34:28] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[01:34:28] [Server thread/INFO]: [Vault] [Vault][Economy] Essentials Economy hooked.
+[01:34:28] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[01:34:28] [Server thread/INFO]: [EssentialsProtect] Enabling EssentialsProtect v2.17.0.0
+[01:34:28] [Server thread/INFO]: [EssentialsProtect] Continuing to enable Protect.
+[01:34:28] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.17.0.0
+[01:34:28] [Server thread/INFO]: [EssentialsGeoIP] Enabling EssentialsGeoIP v2.17.0.0
+[01:34:28] [Server thread/INFO]: Sùahuje sa GeoIP datab·za... mÙûe to chvÌæu trvaù (krajina: 1.7 MB, mesto: 30 MB)
+[01:34:28] [Server thread/WARN]: Unable to load JDK7 types (annotations, java.nio.file.Path): no Java7 support added
+[01:34:28] [Server thread/INFO]: [EssentialsGeoIP] This product includes GeoLite2 data created by MaxMind, available from http://www.maxmind.com/.
+[01:34:28] [Server thread/INFO]: [EssentialsAntiBuild] Enabling EssentialsAntiBuild v2.17.0.0
+[01:34:28] [Server thread/INFO]: [Shop] Enabling Shop v2.1.1
+[01:34:28] [Server thread/INFO]: Failed to check for an update on Spigot.
+[01:34:28] [Server thread/INFO]: Failed to check for an update on Spigot.
+[01:34:28] [Server thread/INFO]: [Shop] PlaceholderAPI not found, alternative placeholders will be used.
+[01:34:28] [Server thread/INFO]: [Shop] Citizens not found. NPCs will not be available.
+[01:34:28] [Server thread/INFO]: [PerWorldInventory] Enabling PerWorldInventory v2.3.1
+[01:34:29] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[01:34:29] [Server thread/INFO]: Done (9.309s)! For help, type "help"
+[01:34:29] [Craft Scheduler Thread - 6/INFO]: [Vault] Checking for Updates ... 
+[01:34:29] [Craft Scheduler Thread - 6/INFO]: [Vault] No new version available
+[01:36:47] [User Authenticator #1/INFO]: UUID of player z_buffer is 9e9d22b5-8385-3441-8768-bf04cab65bac
+[01:36:48] [Server thread/INFO]: Failed to check for an update on Spigot.
+[01:36:48] [Server thread/INFO]: z_buffer[/147.32.114.54:52548] logged in with entity id 140 at ([Survival]1199.384900741409, 87.0, 1528.627913945412)
+[01:36:49] [Server thread/WARN]: [Essentials] Permissions lag notice with (GenericVaultHandler). Response took 113,409300ms. Summary: Getting prefix for z_buffer
+[01:37:18] [Server thread/INFO]: z_buffer issued server command: /help
+[01:37:27] [Server thread/INFO]: z_buffer issued server command: /help 2
+[01:37:31] [Server thread/INFO]: z_buffer issued server command: /help 3
+[01:37:37] [Server thread/INFO]: z_buffer issued server command: /hub
+[02:03:50] [Server thread/INFO]: z_buffer lost connection: Disconnected
+[02:03:50] [Server thread/INFO]: z_buffer left the game

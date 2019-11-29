@@ -1,0 +1,22 @@
+2019-09-23 19:04:31.785961|INFO    |ServerLibPriv |   |TeamSpeak 3 Server 3.9.1 (2019-07-02 13:17:23)
+2019-09-23 19:04:31.786960|INFO    |ServerLibPriv |   |SystemInformation: Windows 10 (18362) x64 (AMD or Intel) Binary: 64bit
+2019-09-23 19:04:31.786960|INFO    |ServerLibPriv |   |Using hardware aes
+2019-09-23 19:04:31.833923|INFO    |DatabaseQuery |   |dbPlugin name:    SQLite3 plugin, Version 3, (c)TeamSpeak Systems GmbH
+2019-09-23 19:04:31.834924|INFO    |DatabaseQuery |   |dbPlugin version: 3.11.1
+2019-09-23 19:04:31.853907|INFO    |DatabaseQuery |   |checking database integrity (may take a while)
+2019-09-23 19:04:31.971816|WARNING |Accounting    |   |Unable to open licensekey.dat, falling back to limited functionality
+2019-09-23 19:04:31.994799|INFO    |Accounting    |   |Licensing Information
+2019-09-23 19:04:31.994799|INFO    |Accounting    |   |licensed to       : Anonymous
+2019-09-23 19:04:31.994799|INFO    |Accounting    |   |type              : No License
+2019-09-23 19:04:31.994799|INFO    |Accounting    |   |starting date     : Tue Jan  1 00:00:00 2019
+2019-09-23 19:04:31.994799|INFO    |Accounting    |   |ending date       : Fri Jan 31 00:00:00 2020
+2019-09-23 19:04:31.994799|INFO    |Accounting    |   |max virtualservers: 1
+2019-09-23 19:04:31.994799|INFO    |Accounting    |   |max slots         : 32
+2019-09-23 19:04:32.030770|INFO    |              |   |myTeamSpeak identifier revocation list was downloaded successfully - all related features are activated
+2019-09-23 19:04:32.789402|INFO    |              |   |Puzzle precompute time: 669
+2019-09-23 19:04:32.790396|INFO    |FileManager   |   |listening on 0.0.0.0:30033, [::]:30033
+2019-09-23 19:04:32.915804|INFO    |Query         |   |listening for query on 0.0.0.0:10011, [::]:10011
+2019-09-23 19:04:32.915804|INFO    |Query         |   |listening for query ssh on 0.0.0.0:10022, [::]:10022
+2019-09-23 19:04:32.935789|INFO    |CIDRManager   |   |updated query_ip_whitelist ips: 127.0.0.1/32, ::1/128, 
+2019-09-23 19:28:49.705823|INFO    |              |   |Error opening file "files\virtualserver_1\internal\icons/icon_4068158772": The system cannot find the file specified.
+                                                       

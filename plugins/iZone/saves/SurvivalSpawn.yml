@@ -1,0 +1,15 @@
+border1:
+  x: 1154
+  y: 66
+  z: 1503
+world: Survival
+border2:
+  x: 1246
+  y: 71
+  z: 1595
+creation-date: 1564093234116
+flag:
+  protection: true
+  interact: true
+allowed:
+- o:z_buffer
